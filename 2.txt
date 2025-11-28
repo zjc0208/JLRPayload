@@ -1,0 +1,1521 @@
+0x0127		车辆类型		L494	0x0C	Enumerated
+0x0137		车门		5门	0x02	Enumerated
+0x0147		变速箱传动系统		全轮驱动(Without disconnect)	0x02	Enumerated
+0x0157		双燃料		非双燃料	0x01	Enumerated
+0x0167		发动机类型		AJ126 V6 S/C 3.0L	0x9A	Enumerated
+0x0177		燃油类型		汽油	0x01	Enumerated
+0x0187		交流发电机		交流发电机180A	0x02	Enumerated
+0x0227		驾驶位置		左侧驾驶	0x01	Enumerated
+0x0237		变速器		ZF 8 速自动变速箱	0x4A	Enumerated
+0x0247		变速器类型		自动变速箱	0x02	Enumerated
+0x0257		燃油油箱容积		未定义	0x00	Enumerated
+0x0267		报警		周边防盗	0x03	Enumerated
+0x0277		座椅按摩		未安装	0x01	Enumerated
+0x0287		前照灯类型		自适应前照灯带自动调节 / Button controlled / Mech or no tourist light	0x04	Enumerated
+0x0327		对称前照灯		US对称	0x01	Enumerated
+0x0337		日间行车灯		标准近光（非 DTRL）	0x02	Enumerated
+0x0347		渐暗近光前照灯		未定义	0x00	Enumerated
+0x0357		雾灯功能		雾灯未与前照灯联动	0x03	Enumerated
+0x0367		后雾灯拖车功能		连接拖车时雾灯关闭，仅拖车雾灯工作	0x02	Enumerated
+0x0377		拖车模块		不带拖车模块	0x01	Enumerated
+0x0387		无钥匙进入和启动		无钥匙进入和起动	0x02	Enumerated
+0x0427		辅助加热器		仅辅助水泵（仅 NAS 市场）	0x06	Enumerated
+0x0437		速度控制（ACC）		速度控制	0x02	Enumerated
+0x0447		雨量传感器		未定义	0x00	Enumerated
+0x0457		前照灯清洗		未定义	0x00	Enumerated
+0x0467		动力转向类型		不带外部角度控制的电子液压动力转向，仅适用于 JLR	0x07	Enumerated
+0x0477		行程计算机		不带行程计算机	0x01	Enumerated
+0x0487		行李箱私人锁定		行李箱私人锁定	0x02	Enumerated
+0x0527		后车门儿童锁		后车门电动儿童锁	0x03	Enumerated
+0x0537		解锁设置		两步解锁打开	0x02	Enumerated
+0x0547		ACKNOWL信号锁定/警报		未定义	0x00	Enumerated
+0x0557		车速联动自动锁定		未定义	0x00	Enumerated
+0x0567		水平传感器 - 若发生警报		未安装	0x01	Enumerated
+0x0577		钥匙防“锁入”2 车外		尾门关闭之前/之后车外搜索钥匙,上述选项 2 和 3	0x04	Enumerated
+0x0587		钥匙防“锁入”车内		车内扫描车厢内任意一把钥匙以防止加装钥匙和任意一把钥匙之间发生搜索冲突	0x03	Enumerated
+0x0627		紧急警报		未定义	0x00	Enumerated
+0x0637		盲点监控系统		未安装	0x01	Enumerated
+0x0647		道路摩擦检测		未安装	0x01	Enumerated
+0x0657		PTC 加热器（辅助空气加热器		未安装	0x01	Enumerated
+0x0667		后蓄电池		未定义	0x00	Enumerated
+0x0677		空调过滤器		未定义	0x00	Enumerated
+0x0687		气候控制单元		双区ATC	0x09	Enumerated
+0x0727		速度限制		未定义	0x00	Enumerated
+0x0737		速度警告装置		未定义	0x00	Enumerated
+0x0747		组合仪表校准		未定义	0x00	Enumerated
+0x0757		前轮制动器类型		未定义	0x00	Enumerated
+0x0767		车内运动传感器		未安装	0x01	Enumerated
+0x0777		心跳探测器		未定义	0x00	Enumerated
+0x0787		后排加热座椅		仅后面第二排座椅	0x02	Enumerated
+0x0827		电话		不带电话	0x01	Enumerated
+0x0837		轮胎滚动周长		滚动周长2395mm	0xF4	Enumerated
+0x0847		保养周期		未定义	0x00	Enumerated
+0x0857		座椅加热校准		低温34C高温40C	0x12	Enumerated
+0x0867		前排加热座椅		前排加热和制冷座椅，沃尔沃，3模式分区	0x04	Enumerated
+0x0877		前排座椅通风		未定义	0x00	Enumerated
+0x0887		驻车加热器开始时间		未安装	0x01	Enumerated
+0x0927		驻车制动器类型		电子驻车制动器	0x02	Enumerated
+0x0937		加热式挡风玻璃		无加热式挡风玻璃/刮水器停驻位置/加热式喷嘴	0x01	Enumerated
+0x0947		驻车辅助		PDC（前后）	0x03	Enumerated
+0x0957		陡坡缓降控制		未定义	0x00	Enumerated
+0x0967		安全带提醒		未定义	0x00	Enumerated
+0x0977		品牌		Land Rover（路虎）	0x03	Enumerated
+0x0987		遥控频率		频率315MHz	0x01	Enumerated
+0x0A27		后空调		带存储功能的后部控制箱（无后面部通风口）	0x09	Enumerated
+0x0A37		玻璃类型		红外保护玻璃挡风玻璃 	0x02	Enumerated
+0x0A47		车顶类型		全景式玻璃车顶	0x02	Enumerated
+0x0A57		辛烷值		未定义	0x00	Enumerated
+0x0A67		排放标准		未定义	0x00	Enumerated
+0x0A77		车身风格		越野车	0x35	Enumerated
+0x0A87		轮胎尺寸		X351: 265/35 ZR20  295/30 ZR20 D7u: 20(255/55R20)	0x9F	Enumerated
+0x0B27		主减速比		3.73	0x20	Enumerated
+0x0B37		导航/旅行辅助		未定义	0x00	Enumerated
+0x0B47		扬声器数量		较少扬声器	0x07	Enumerated
+0x0B57		悬架		四角空气悬架	0x07	Enumerated
+0x0B67		车辆动态集成控制		带翻滚稳定性控制的ESP	0x08	Enumerated
+0x0B77		拖杆		不带拖车牵引装置	0x01	Enumerated
+0x0B87		PDCS 扬声器		未定义	0x00	Enumerated
+0x0C27		驱动桥		未定义	0x00	Enumerated
+0x0C37		后轮类型		单后轮	0x01	Enumerated
+0x0C47		轴距系列和加长选项		未定义	0x00	Enumerated
+0x0C57		主动悬架		未定义	0x00	Enumerated
+0x0C67		转向机		未定义	0x00	Enumerated
+0x0C77		中控锁类型		未安装防盗锁	0x01	Enumerated
+0x0C87		侧窗		钢化侧窗	0x01	Enumerated
+0x0D27		车外后视镜		已安装折叠后视镜	0x02	Enumerated
+0x0D37		记忆功能		已安装	0x02	Enumerated
+0x0D47		水坑灯，车外后视镜		已安装	0x02	Enumerated
+0x0D57		自动车灯		未定义	0x00	Enumerated
+0x0D67		乘客侧气囊		未定义	0x00	Enumerated
+0x0D77		乘客气囊切断开关		未安装	0x01	Enumerated
+0x0D87		驾驶员侧气囊（胸部）		未定义	0x00	Enumerated
+0x0E27		乘客侧气囊（胸部）		未定义	0x00	Enumerated
+0x0E37		语言		英语（美式）指示	0x11	Enumerated
+0x0E47		电子加热器		未定义	0x00	Enumerated
+0x0E57		双门跑车通风装置		未定义	0x00	Enumerated
+0x0E67		制动碰撞缓冲（ACC）		未安装	0x01	Enumerated
+0x0E77		前部碰撞警告		未安装	0x01	Enumerated
+0x0E87		车道偏离警告		已安装启用菜单的 LDW  未安装TSR	0x31	Enumerated
+0x0F27		驻车辅助摄像机		已安装CAN FMVSS111 驻车辅助摄像机	0x06	Enumerated
+0x0F37		行李箱12V电源插座		未定义	0x00	Enumerated
+0x0F47		胎压模式系统		带WBL的TPMS，DLS（默认 Heavy）WT无HSPA US	0xB0	Enumerated
+0x0F57		机油油位传感器		未定义	0x00	Enumerated
+0x0F67		防侧翻稳定性控制		未定义	0x00	Enumerated
+0x0F77		后增压器的电子真空泵		未定义	0x00	Enumerated
+0x0F87		后轮制动器类型		未定义	0x00	Enumerated
+0x1027		紧急制动		不带紧急制动灯	0x01	Enumerated
+0x1037		辅助车灯		未定义	0x00	Enumerated
+0x1047		车顶升降口		车顶升降口	0x01	Enumerated
+0x1057		前/后电动车窗		DCU 电动控制前 后车窗	0x02	Enumerated
+0x1067		 无线电频带和频率步进		无线电频带和频率步进，适用于欧美国车型	0x02	Enumerated
+0x1077		内饰等级		未定义	0x00	Enumerated
+0x1087		车内娱乐设施		低水平磁带 + AM/FM 收音机	0x02	Enumerated
+0x1127		 语音控制		先进的语音识别	0x03	Enumerated
+0x1137		车速偏离		未定义	0x00	Enumerated
+0x1147		车速锁定		未定义	0x00	Enumerated
+0x1157		仪表等级		未定义	0x00	Enumerated
+0x1167		 车速表		未定义	0x00	Enumerated
+0x1177		行车纪录器		未定义	0x00	Enumerated
+0x1187		收音机，放大器和扬声器系统		音频 '中等性能' (MP)	0x11	Enumerated
+0x1227		仪表板中央扬声器		不带中央扬声器	0x01	Enumerated
+0x1237		重低音喇叭		不带重低音喇叭	0x01	Enumerated
+0x1247		后部耳机插孔		不带耳机插孔	0x01	Enumerated
+0x1257		辅助音频输入		辅助音频输入	0x02	Enumerated
+0x1267		音频播放机		未定义	0x00	Enumerated
+0x1277		数字无线电接收器		SiriusXM Sat 无线电	0x05	Enumerated
+0x1287		 扩音器		扩音器（仅驾驶员）	0x02	Enumerated
+0x1327		导航系统		导航系统，适用于 NGI 车型	0x22	Enumerated
+0x1337		驻车制动开关		未定义	0x00	Enumerated
+0x1347		地形反馈设备		带地形反馈	0x02	Enumerated
+0x1357		PAM 扫描模式		模式 1：核心	0x01	Enumerated
+0x1367		前排乘客座椅安全的提醒器		未定义	0x00	Enumerated
+0x1377		驾驶员膝部支撑		未定义	0x00	Enumerated
+0x1387		侧帘式空气囊		未定义	0x00	Enumerated
+0x1427		驾驶员侧空气囊		未定义	0x00	Enumerated
+0x1437		前部主动座椅安全带卷收器预紧器		被动座椅安全带	0x03	Enumerated
+0x1447		座椅安全带警告		不支持	0x00	Enumerated
+0x1457		左侧负载车门		不支持	0x00	Enumerated
+0x1467		右侧负载车门		不支持	0x00	Enumerated
+0x1477		后门开口		不支持	0x00	Enumerated
+0x1487		PDC 自动激活菜单		带 PDC 自动激活菜单	0x02	Enumerated
+0x1527		后玻璃		后加热式玻璃	0x03	Enumerated
+0x1537		车顶高度		不支持	0x00	Enumerated
+0x1547		后清洗/刮水		间歇式后清洗/刮水	0x02	Enumerated
+0x1557		电动/加热后视镜		长臂电动/加热式后视镜	0x04	Enumerated
+0x1567		自动再锁定		不支持	0x00	Enumerated
+0x1577		分区反向车门再锁定		不支持	0x00	Enumerated
+0x1587		可见误锁反馈		不支持	0x00	Enumerated
+0x1627		可配置解锁		不支持	0x00	Enumerated
+0x1637		延时照明		不支持	0x00	Enumerated
+0x1647		空气质量传感器		不带空气质量传感器	0x01	Enumerated
+0x1657		排放、蒸发系统		不支持	0x00	Enumerated
+0x1667		后部折叠头枕		不支持	0x00	Enumerated
+0x1677		外部警报装置电源		不支持	0x00	Enumerated
+0x1687		附件 USB 装置		IAM 带 USB 和 iPod 功能	0x07	Enumerated
+0x1727		交通信息		不支持	0x00	Enumerated
+0x1737		空调压缩机类型		可变排量外部控制有离合器 (ECVDC)	0x04	Enumerated
+0x1747		蓝牙免提		蓝牙免提和音频流	0x04	Enumerated
+0x1757		乘员重量传感器 (OWS)		带乘员重量传感器	0x02	Enumerated
+0x1767		后排安全带检测		不支持	0x00	Enumerated
+0x1777		PYRO 技术转向柱		不支持	0x00	Enumerated
+0x1787		前部自适应负载限制器		不支持	0x00	Enumerated
+0x1827		座椅轨道传感器		不支持	0x00	Enumerated
+0x1837		前部腰式安全带预紧器		不支持	0x00	Enumerated
+0x1847		前部碰撞感知系统		不支持	0x00	Enumerated
+0x1857		前部自适应通风装置		不支持	0x00	Enumerated
+0x1867		前车门警告灯		无前门警告灯	0x01	Enumerated
+0x1877		失速提示		不带失速提示	0x01	Enumerated
+0x1887		无法检测到钥匙提示		无法检测到钥匙提示	0x02	Enumerated
+0x1927		下车解锁		下车解锁	0x02	Enumerated
+0x1937		蓄电池节电时间		不支持	0x00	Enumerated
+0x1947		加热式方向盘		带加热式方向盘	0x02	Enumerated
+0x1957		前中心显示器		带显示屏 - 触摸屏	0x02	Enumerated
+0x1967		后排娱乐系统		未装配后排娱乐系统	0x01	Enumerated
+0x1977		电视调谐器		不带 TV 调谐器	0x01	Enumerated
+0x1987		语音控制语言		美国英语	0x01	Enumerated
+0x1A27		车门把手技术		完全触摸传感器（锁定和解锁）	0x05	Enumerated
+0x1A37		自动开启尾灯/尾门		带软关闭的电动尾门打开/关闭 - 全系统	0x03	Enumerated
+0x1A47		换档指示器		不支持	0x00	Enumerated
+0x1A57		空档自动控制		不支持	0x00	Enumerated
+0x1A67		转速控制器		不支持	0x00	Enumerated
+0x1A77		湿度传感器		湿度传感器	0x02	Enumerated
+0x1A87		哮喘和过敏		不支持	0x00	Enumerated
+0x1B27		发动机冷却风扇性能		仅粘性风扇	0x06	Enumerated
+0x1B37		整体打开/关闭		不支持	0x00	Enumerated
+0x1B47		里程计算混合装置		驾驶员无法选择 MPL 装置	0x01	Enumerated
+0x1B57		遥控车门控制音道类型		遥控车门多音道	0x02	Enumerated
+0x1B67		方向盘音响按钮		方向盘音响按钮	0x02	Enumerated
+0x1B77		免提电话静音功能		不带电话静音功能	0x01	Enumerated
+0x1B87		换至驻车档提示		启用换至驻车档施加，启用换出驻车档释放	0x04	Enumerated
+0x1C27		后车门遮阳帘		不带后车门遮阳帘	0x01	Enumerated
+0x1C37		驾驶员损伤监视器		不带驾驶员损伤监视器	0x01	Enumerated
+0x1C47		城市安全系统		不支持	0x00	Enumerated
+0x1C57		PSS 预警策略		双级别策略	0x02	Enumerated
+0x1C67		后视镜安装转向信号		后视镜安装转向信号	0x02	Enumerated
+0x1C77		混合行程计算机功率比		功率比不适用	0x00	Enumerated
+0x1C87		非接触式尾门		未定义	0x00	Enumerated
+0x1D27		温度分区用户分布		2 温度，1 分布，1 鼓风机	0x02	Enumerated
+0x1D37		生态信息系统		普通车辆 - 英制加仑 - 5 座	0x15	Enumerated
+0x1D47		夜视仪		未配置	0x00	Enumerated
+0x1D57		车载通信 1		装配车载通信 TCU	0x1F	Enumerated
+0x1D67		倒档声		无倒档声	0x01	Enumerated
+0x1D77		阳光传感器		前 - 双区：后 - 未装配	0x03	Enumerated
+0x1D87		车载通信保护		车载通信保护	0x03	Enumerated
+0x1E27		伸缩式踏脚板		不支持	0x00	Enumerated
+0x1E37		赛车子品牌		主流车辆	0x01	Enumerated
+0x1E47		驾驶员工作负载管理器		禁用	0x01	Enumerated
+0x1E57		前摄像机		单前摄像机	0x02	Enumerated
+0x1E67		转向柱锁		不支持	0x00	Enumerated
+0x1E77		涉水感应系统		(0001) 未装配涉水感应系统	0x01	Enumerated
+0x1E87		蓄电池		T7 80Ah 700 冷起动电流	0x03	Enumerated
+0x1F27		蓄电池监视传感器		蓄电池监视传感器	0x02	Enumerated
+0x1F37		DVD 适用区域		DVD R1 USA/CDN	0x02	Enumerated
+0x1F47		Eco Data (驾驶员信息显示屏)		功能启用（显示信息级别3）	0x04	Enumerated
+0x1F57		集成控制面板		加长 ICP	0x03	Enumerated
+0x1F67		信息娱乐信息防盗保护		Not supported	0x00	Enumerated
+0x1F77		静态继电器盒		启用 BCM 闭锁功能	0x03	Enumerated
+0x1F87		图片支持		不带图片支持	0x01	Enumerated
+0x2027		IGOR 系统描述		带静音逻辑的 2 继电器	0x01	Enumerated
+0x2037		区域语言		Not supported	0x00	Enumerated
+0x2047		侧摄像机		两侧摄像机，不带日语功能	0x04	Enumerated
+0x2057		拖车轮胎压力监视系统		未装配拖车 TPMS	0x01	Enumerated
+0x2067		启停系统		启停系统	0x02	Enumerated
+0x2077		抬头显示屏		未装配 HUD	0x01	Enumerated
+0x2087		可调速度限制器		装配 ASL	0x02	Enumerated
+0x2127		Advanced Chauffeur Function		未装配 AFC	0x01	Enumerated
+0x2137		智能紧急制动		不带 LSIEB	0x01	Enumerated
+0x2147		4x4 信息显示屏y		启用	0x02	Enumerated
+0x2157		可视听警报模式		启用（使用可用回声器）	0x02	Enumerated
+0x2167		车型年款		2017	0x1D	Enumerated
+0x2177		碰撞事件数据记录		如果使用，显示未定义错误状态	0x00	Enumerated
+0x2187		锁块类型		未闭锁	0x02	Enumerated
+0x2227		辅助水泵		未装配辅助水泵	0x01	Enumerated
+0x2237		零件号表格		如果使用，显示未定义错误状态	0x00	Enumerated
+0x2247		对话辅助		不带对话辅助	0x01	Enumerated
+0x2257		导航 ECO 路径 - 城市数据		如果使用，显示未定义错误状态	0x00	Enumerated
+0x2267		导航 ECO 路径 - 郊外数据		如果使用，显示未定义错误状态d	0x00	Enumerated
+0x2277		分动器		单速不带控制器	0x01	Enumerated
+0x2287		主动侧倾控制		未装配 ARC	0x01	Enumerated
+0x2327		后差速器		未装配电子差速器	0x01	Enumerated
+0x2337		氛围灯		装配三色，禁用自动按钮	0x04	Enumerated
+0x2347		导航车速限制		Undefined error condition if used	0x00	Enumerated
+0x2357		被动锁定错误声调		Chirps关闭	0x01	Enumerated
+0x2367		手册		Undefined error condition if used	0x00	Enumerated
+0x2377		连接并查看		CE App 投影功能 - mySPIN Fitted Only	0x02	Enumerated
+0x2387		动态 -i		未装配动态 -i	0x01	Enumerated
+0x2427		AHB 系统		禁用 IPC/DI 中的 AHB 菜单，测试菜单	0x03	Enumerated
+0x2437		越野导航		Undefined error condition if used	0x00	Enumerated
+0x2447		音频品牌		无音频品牌	0x01	Enumerated
+0x2457		视频显示限制		档位 = 驻车档时允许视频	0x05	Enumerated
+0x2467		乘客座椅模块		Undefined error condition if used	0x00	Enumerated
+0x2477		车载通信 2		IInControl 保护和 InControl 连接程序（车载通信和 NGI 连通性） TCU2 或 TCU3（H）	0x3C	Enumerated
+0x2487		发电机：曲柄转动比		3:01	0x02	Enumerated
+0x2527	1	车辆类型		L494	0x07	Enumerated
+0x2537	2	品牌		Land Rover	0x01	Enumerated
+0x2547	3	车型年款T5		2017	0x23	Enumerated
+0x2557	4	VIN1	VIN Character 1	S	0x53	ASCII
+0x2567	5	VIN2	VIN Character 2	A	0x41	ASCII
+0x2577	6	VIN3	VIN Character 3	L	0x4C	ASCII
+0x2587	7	VIN4	VIN Character 4	W	0x57	ASCII
+0x2627	8	VIN5	VIN Character 5	R	0x52	ASCII
+0x2637	9	VIN6	VIN Character 6	2	0x32	ASCII
+0x2647	10	VIN7	VIN Character 7	F	0x46	ASCII
+0x2657	11	VIN8	VIN Character 8	V	0x56	ASCII
+0x2667	12	VIN9	VIN Character 9	0	0x30	ASCII
+0x2677	13	VIN10	VIN Character 10	H	0x48	ASCII
+0x2687	14	VIN11	VIN Character 11	A	0x41	ASCII
+0x2727	15	VIN12	VIN Character 12	6	0x36	ASCII
+0x2737	16	VIN13	VIN Character 13	8	0x38	ASCII
+0x2747	17	VIN14	VIN Character 14	5	0x35	ASCII
+0x2757	18	VIN15	VIN Character 15	1	0x31	ASCII
+0x2767	19	VIN16	VIN Character 16	0	0x30	ASCII
+0x2777	20	VIN17	VIN Character 17	0	0x30	ASCII
+0x2787	21	变速箱类型		装配自动版	0x02	Enumerated
+0x2827	22	轮胎动态滚动半径 MSB			0x01	Enumerated
+0x2837	23	轮胎动态滚动半径 LSB			0x7F	Enumerated
+0x2840	24	制动系统类型	SCS	已安装	0x01	Enumerated
+0x2841	24	制动系统类型	DSC	已安装	0x01	Enumerated
+0x2842	24	制动系统类型	TVB	未安装	0x00	Enumerated
+0x2843	24	制动系统类型	Wheel Speed Sensor Fitted	无方向型	0x00	Enumerated
+0x2846	24	轮胎类型		未定义	0x00	Enumerated
+0x2847	24	刹车片类型		非 NAO	0x00	Enumerated
+0x2853	25	前刹车盘尺寸	Front	19 inch	0x06	Enumerated
+0x2857	25	后刹车盘尺寸	Rear	Undefined	0x00	Enumerated
+0x2867	26	燃油类型		汽油	0x01	Enumerated
+0x2872	27	发动机类型	Induction	机械增压	0x03	Enumerated
+0x2877	27	发动机类型	Variant	AJ126 3.0 litre	0x10	Enumerated
+0x2887	28	轴距 MSB			0x0B	Enumerated
+0x2927	29	轴距 LSB			0x6A	Enumerated
+0x2937	30	主减速比 MSB			0x0A	Enumerated
+0x2947	31	主减速比 LSB			0xAA	Enumerated
+0x2950	32	车辆状态(电瓶传送模式)	Delivery Mode (battery)	禁用	0x00	Enumerated
+0x2951	32	Vehicle Status	传送模式(悬架)	禁用	0x00	Enumerated
+0x2952	32	车辆状态（锁定）	Delivery Mode (locking)	禁用	0x00	Enumerated
+0x2953	32	工厂模式激活	Factory Mode Active	保留调整1	0x00	Enumerated
+0x2956	32	机油油位动态警告（也被称为低临界）		未定义 / 未编程	0x00	Enumerated
+0x2957	32	可展开的扰流器 NAS 清洁模式	Market	ROW (Spolier manually requested at all road speeds)	0x00	Enumerated
+0x2960	33	拖车杆	Tow ball	未安装	0x00	Enumerated
+0x2961	33	Towing	NAS 拖车照明功能	启用	0x01	Enumerated
+0x2963	33	发动机冷却风扇	Engine Cooling Fan	硅油风扇已安装	0x03	Enumerated
+0x2967	33	底盘描述		用于车辆无发动机子变量的地方	0x00	Enumerated
+0x2972	34	动力传动系部件 1	中央差速器	4WD/AWD without disconnect	0x02	Enumerated
+0x2973	34	动力传动系部件 1	中央差速器	未安装	0x00	Enumerated
+0x2974	34	动力传动系部件 1	后电子差速锁	未安装	0x00	Enumerated
+0x2977	34	动力传动系部件 1	速度控制	普通巡航已安装	0x02	Enumerated
+0x2980	35	底盘部件1	ARC	未安装	0x00	Enumerated
+0x2981	35	底盘部件1	2CAS	未安装	0x00	Enumerated
+0x2982	35	底盘部件1	4CAS	已安装	0x01	Enumerated
+0x2983	35	底盘部件1	TO(地形响应)或JDO(Jaguar驾驶优化)	已安装	0x01	Enumerated
+0x2984	35	底盘部件1	2CAL	未安装	0x00	Enumerated
+0x2985	35	底盘部件1	SAS	已安装	0x01	Enumerated
+0x2986	35	底盘部件1	悬架高度	正常	0x00	Enumerated
+0x2987	35	底盘部件1	弹簧减震	未安装	0x00	Enumerated
+0x2A20	36	TO/JDO ECU	草地/砾石/雪模式重置后(TO)/冬季模式重置(JDO)	禁用	0x00	Enumerated
+0x2A21	36	TO/JDO ECU	JDO/TO 动态按钮	未安装	0x00	Enumerated
+0x2A22	36	TO/JDO ECU	动力转向辅助(PAS)	是	0x01	Enumerated
+0x2A23	36	TO/JDO ECU	连续阻尼调整(CVD)	否	0x00	Enumerated
+0x2A24	36	TO/JDO ECU	电子差速器(eDiff)	否	0x00	Enumerated
+0x2A25	36	TO/JDO ECU	自动地形响应	未安装	0x00	Enumerated
+0x2A26	36	TO/JDO ECU	转向齿条	转向器比率#1	0x00	Enumerated
+0x2A27	36	TO/JDO ECU	Eco按钮	已安装	0x01	Enumerated
+0x2A32	37	轮胎压力监测系统	轮胎压力监测系统	未定义	0x00	Enumerated
+0x2A33	37	轮胎压力监测系统	驾驶负载切换	ROW低负载	0x00	Enumerated
+0x2A34	37	轮胎压力监测系统	备胎	未安装	0x00	Enumerated
+0x2A35	37	轮胎压力监测系统	轮胎压力监测器按钮	禁用	0x00	Enumerated
+0x2A36	37	轮胎压力监测系统	轮胎压力监测系统发射频率	315Mhz	0x00	Enumerated
+0x2A37	37	轮胎压力监测系统	驾驶员可选负载切换	禁用	0x00	Enumerated
+0x2A47	38	驱动类型	驱动类型	LHD	0x01	Enumerated
+0x2A50	39	气候空气部件1	后气候控制系统	未安装	0x00	Enumerated
+0x2A51	39	气候控制部件1	烟雾传感器	未安装	0x00	Enumerated
+0x2A52	39	气候控制部件1	加热座椅	未安装	0x00	Enumerated
+0x2A53	39	气候控制部件1	电动风窗玻璃除霜	未安装	0x00	Enumerated
+0x2A54	39	气候控制部件1	辅助加热器	未安装	0x00	Enumerated
+0x2A55	39	气候控制部件1	后加热玻璃	已安装	0x01	Enumerated
+0x2A56	39	气候控制部件1	PTC	未安装	0x00	Enumerated
+0x2A57	39	气候控制部件1	驻车辅助加热器	未安装	0x00	Enumerated
+0x2A62	40	气候控制部件	系统	未定义	0x00	Enumerated
+0x2A63	40	气候控制部件	前风挡模糊传感器	未安装	0x00	Enumerated
+0x2A67	40	气候控制部件	座椅材料	未定义	0x00	Enumerated
+0x2A70	41	EPB ECU	钥匙拔出实施	不激活	0x00	Enumerated
+0x2A71	41	EPB ECU	停转实施	不激活	0x00	Enumerated
+0x2A72	41	EPB ECU	城市模式	不激活	0x00	Enumerated
+0x2A73	41	EPB ECU	动态刹车灯	激活	0x01	Enumerated
+0x2A74	41	EPB ECU	驻车制动控制模块	已安装	0x01	Enumerated
+0x2A75	41	EPB ECU	驶离释放	激活	0x01	Enumerated
+0x2A76	41	EPB ECU	从驻车档换挡	不激活	0x00	Enumerated
+0x2A77	41	EPB ECU	保留	NA	0x00	Enumerated
+0x2A83	42	PDC	驻车辅助	八通道已安装	0x02	Enumerated
+0x2A86	42	保险杠类型	保险杠类型	未定义	0x00	Enumerated
+0x2A87	42	ECO模式按钮装置(JDC)	ECO模式按钮装置	未安装	0x00	Enumerated
+0x2B20	43	个性化模式	客户个性化	已安装	0x01	Enumerated
+0x2B21	43	个性化模式	可配置动态模式	未安装	0x00	Enumerated
+0x2B23	43	个性化模式	模式	驾驶员	0x02	Enumerated
+0x2B24	43	动力传动系统部件3	限滑差速器	未安装	0x00	Enumerated
+0x2B25	43	动力传动系统部件3	档位指示器	禁用	0x00	Enumerated
+0x2B26	43	动力传动系统3	变速箱拨片	缺陷驾驶	0x01	Enumerated
+0x2B27	43	动力传动系统3	主动式叶片	已安装	0x01	Enumerated
+0x2B30	44	刮水器1	由速度控制的间歇性挡风玻璃刮水器	是	0x01	Enumerated
+0x2B31	44	刮水器1	雨量传感器	已安装	0x01	Enumerated
+0x2B32	44	刮水器1	后连续刮水器	否	0x00	Enumerated
+0x2B33	44	刮水器1	由速度空时的前挡风玻璃刮水器	是	0x01	Enumerated
+0x2B34	44	刮水器1	编程刮水器	激活	0x01	Enumerated
+0x2B35	44	刮水器1	前照灯清洗	已安装	0x01	Enumerated
+0x2B36	44	刮水器1	滴水刮水功能	激活	0x01	Enumerated
+0x2B37	44	刮水器1	挡风玻璃刮水器上行清洗	禁用	0x00	Enumerated
+0x2B40	45	外部灯光6	外部照明灯唤醒顺序	启用	0x01	Enumerated
+0x2B43	45	外部灯光6	专用日间行车灯行为市场	NAS市场	0x00	Enumerated
+0x2B44	45	外部灯光6	车内灯唤醒顺序	启用	0x01	Enumerated
+0x2B45	45	外部灯光6	外部灯光关闭顺序	启用	0x01	Enumerated
+0x2B46	45	外部灯光6	转向信号指示	BCM通过LIN检测故障	0x00	Enumerated
+0x2B47	45	外部灯光6	车辆喇叭开启警告	限制	0x01	Enumerated
+0x2B57	46	外部灯光2	角落点亮灯门限值	35	0x23	Decimal
+0x2B60	47	外部灯光3	角落禁用	禁用	0x01	Enumerated
+0x2B61	47	外部灯光3	自动灯快速响应（日本车型自动灯延时时间较短）	不激活	0x00	Enumerated
+0x2B62	47	外部灯光3	白昼行驶灯灯启用	激活	0x01	Enumerated
+0x2B63	47	外部灯光3	斯堪的纳维亚地区日间行驶灯启用	禁用 	0x00	Enumerated
+0x2B64	47	外部灯光3	加拿大日间行驶灯启用	禁用	0x00	Enumerated
+0x2B65	47	外部灯光3	警灯	禁用	0x00	Enumerated
+0x2B66	47	外部灯光3	3个闪灯转向信号灯	启用	0x01	Enumerated
+0x2B67	47	外部灯光3	倒车灯延时熄灭	禁用	0x00	Enumerated
+0x2B70	48	内部灯光1	闪烁确认	启用	0x01	Enumerated
+0x2B71	48	内部灯光1	点火处于辅助/关闭位置是不启用	否	0x00	Enumerated
+0x2B72	48	内部灯光1	接近灯	未安装	0x00	Enumerated
+0x2B73	48	内部灯光1	内部灯启动且行李箱微开启用	启用	0x01	Enumerated
+0x2B74	48	内部灯光1	环境照明区1	未安装	0x00	Enumerated
+0x2B75	48	内部灯光1	环境照明区2	未安装	0x00	Enumerated
+0x2B76	48	内部灯光1	紧急制动指示	启用	0x01	Enumerated
+0x2B77	48	内部灯光1	倒车灯操作	模式1	0x00	Enumerated
+0x2B87	49	内部灯光 2	延时关闭	60	0x3C	Decimal
+0x2C20	50	警报	报警状态	已安装	0x01	Enumerated
+0x2C21	50	报警	有源发声器报警	未安装	0x00	Enumerated
+0x2C22	50	警报	内部容积保护	未安装	0x00	Enumerated
+0x2C23	50	警报	倾斜传感器	未安装	0x00	Enumerated
+0x2C24	50	警报	限时报警	启用	0x01	Enumerated
+0x2C25	50	警报	第二次按压报警鸣音已启用	启用	0x01	Enumerated
+0x2C26	50	警报	无源安全布设延迟	禁用	0x00	Enumerated
+0x2C27	50	警报	安全布设/解除启用时发出警鸣音	禁用	0x00	Enumerated
+0x2C30	51	CDL	首先按下超级锁定	禁用	0x00	Enumerated
+0x2C31	51	CDL	速度锁定	启用	0x01	Enumerated
+0x2C32	51	CDL	转向柱锁	未安装	0x00	Enumerated
+0x2C33	51	CDL	超锁鸣音	禁用	0x00	Enumerated
+0x2C34	51	CDL	全车窗主锁开关	禁用	0x00	Enumerated
+0x2C35	51	CDL	自动重锁	启用	0x01	Enumerated
+0x2C36	51	CDL	全局打开	启用	0x01	Enumerated
+0x2C37	51	CDL	全局关闭	启用	0x01	Enumerated
+0x2C40	52	车身形式	尾门	单件	0x00	Enumerated
+0x2C43	52	车身形式	座椅	5座形式(2 row)	0x01	Enumerated
+0x2C45	52	车身形式	顶棚结构	固定式顶棚结构	0x01	Enumerated
+0x2C47	52	车身形式	安装防弹的车辆	未安装防弹的车辆	0x01	Enumerated
+0x2C50	53	车身控制	被动进入	未安装	0x00	Enumerated
+0x2C51	53	车身控制	遥控启动	已安装	0x01	Enumerated
+0x2C52	53	车身控制	活动顶棚	已安装	0x01	Enumerated
+0x2C53	53	车身控制	座椅记忆	已安装	0x01	Enumerated
+0x2C54	53	车身控制	蓄电池健康警告	禁用	0x00	Enumerated
+0x2C55	53	车身控制	展开式扰流板	未安装	0x00	Enumerated
+0x2C56	53	车身控制	允许遥控钥匙频率打开关闭	仅上部	0x00	Enumerated
+0x2C57	53	车身控制	模拟时钟	未安装	0x00	Enumerated
+0x2C60	54	记忆ECU	倒挡时后视镜倾斜启用	启用	0x01	Enumerated
+0x2C61	54	记忆ECU	方便进入	禁用	0x00	Enumerated
+0x2C62	54	记忆ECU	后折平座椅	禁用	0x00	Enumerated
+0x2C63	54	记忆ECU	电子转向柱调节n	已安装	0x01	Enumerated
+0x2C64	54	记忆ECU	方便进入	禁用	0x00	Enumerated
+0x2C65	54	记忆ECU	转向柱倾斜	禁用	0x00	Enumerated
+0x2C66	54	记忆ECU	转向柱伸缩	禁用	0x00	Enumerated
+0x2C67	54	记忆ECU	3步进入后部装置	禁用	0x00	Enumerated
+0x2C70	55	Sun Roof ECU	便捷关闭	启用	0x01	Enumerated
+0x2C71	55	Sun Roof ECU	VQM	已安装	0x01	Enumerated
+0x2C73	55	Sun Roof ECU	主动排气	系统未安装	0x01	Enumerated
+0x2C77	55	Sun Roof ECU	供电模式	供电模式01-英国	0x01	Enumerated
+0x2C87	56	IHU1	内部集成主机单元	未定义	0x00	Enumerated
+0x2D20	57	IHU2	带内部同频IBOC接收器	未安装	0x00	Enumerated
+0x2D21	57	IHU2	集成面板	未安装	0x00	Enumerated
+0x2D22	57	IHU2	内部集成主机单元	已安装	0x00	Enumerated
+0x2D23	57	IHU2	错误状态	否	0x00	Enumerated
+0x2D24	57	IHU2	集成主机单元AM/FM内部调谐器	未安装	0x00	Enumerated
+0x2D25	57	IHU2	集成主机单元内部CD	未安装	0x00	Enumerated
+0x2D26	57	IHU2	集成主机单元内部DVD	未安装	0x00	Enumerated
+0x2D27	57	IHU2	集成主机单元内部磁盘	未安装	0x00	Enumerated
+0x2D37	58	IHU3/IAM	集成主机控制单元音频播放器	未定义	0x00	Enumerated
+0x2D47	59	SWC	方向盘控制器	未定义	0x00	Enumerated
+0x2D57	60	CD	CD单元	未定义	0x00	Enumerated
+0x2D67	61	放大器类型	放大器类型	未定义	0x00	Enumerated
+0x2D77	62	低音扬声器	超低音扬声器	未定义	0x00	Enumerated
+0x2D83	63	耳机插座	后耳机插座	未定义	0x00	Enumerated
+0x2D84	63	耳机插座	耳机1	未安装	0x00	Enumerated
+0x2D85	63	耳机插座	耳机2	未安装	0x00	Enumerated
+0x2D86	63	耳机插座	耳机3	未安装	0x00	Enumerated
+0x2D87	63	耳机插座	耳机4	未安装	0x00	Enumerated
+0x2E27	64	HLDF	前部高水平显示器	未定义	0x00	Enumerated
+0x2E31	65	MMM1	多媒体模块	未定义	0x00	Enumerated
+0x2E33	65	MMM1	导航系统	未定义	0x00	Enumerated
+0x2E35	65	MMM1	多媒体市场	未定义	0x00	Enumerated
+0x2E37	65	MMM1	多媒体设备	未定义	0x00	Enumerated
+0x2E43	66	MMM2	导航地区	Undefined	0x00	Enumerated
+0x2E47	66	MMM2	MMM2	Undefined	0x00	Enumerated
+0x2E50	67	MMM3	导航人机界面的路虎模式	启用	0x00	Enumerated
+0x2E51	67	MMM3	短信服务已阅列表	行车功能是启用	0x00	Enumerated
+0x2E56	67	MMM3	保留	保留	0x00	Enumerated
+0x2E57	67	MMM3	电装/路虎模式	电装模式	0x00	Enumerated
+0x2E67	68	交通消息接收器	交通消息频道接收器	未定义	0x00	Enumerated
+0x2E77	69	VICS	车辆信息和通讯系统	未定义	0x00	Enumerated
+0x2E83	70	RSE1	接口模块	未定义	0x00	Enumerated
+0x2E87	70	RSE1	DVD播放器	未定义	0x00	Enumerated
+0x2F27	71	RSE2	后座娱乐2	未定义	0x00	Enumerated
+0x2F30	72	RSE3	右后屏幕	未安装	0x00	Enumerated
+0x2F31	72	RSE3	左右屏幕	未安装	0x00	Enumerated
+0x2F32	72	RSE3	显示3	未安装	0x00	Enumerated
+0x2F33	72	RSE3	显示4	未安装	0x00	Enumerated
+0x2F34	72	RSE3	显示5	未安装	0x00	Enumerated
+0x2F35	72	RSE3	后部屏幕	已安装	0x00	Enumerated
+0x2F36	72	RSE3	保留	条件1	0x00	Enumerated
+0x2F37	72	RSE3	错误	否	0x00	Enumerated
+0x2F47	73	AV1	音频可视	未定义	0x00	Enumerated
+0x2F50	74	AV2	辅助输入	禁用	0x00	Enumerated
+0x2F51	74	AV2	音频可视输入	禁用	0x00	Enumerated
+0x2F52	74	AV2	音频可视输出	禁用	0x00	Enumerated
+0x2F53	74	AV2	音频可视视频输入	禁用	0x00	Enumerated
+0x2F54	74	AV2	音频可视视频输出	禁用	0x00	Enumerated
+0x2F55	74	AV2	USB1 (Portable Audio Device)	禁用	0x00	Enumerated
+0x2F56	74	AV2	USB 2	禁用	0x00	Enumerated
+0x2F57	74	AV2	ISO1394 (Firewire)	否	0x00	Enumerated
+0x2F63	75	TV	电视	未定义	0x00	Enumerated
+0x2F67	75	TV	接收机类型	未定义	0x00	Enumerated
+0x2F71	76	SDARS	SDARS	未定义	0x00	Enumerated
+0x2F72	76	SDARS	错误	否	0x00	Enumerated
+0x2F73	76	SDARS - Undefined		不支持	0x00	Enumerated
+0x2F77	76	SDARS	接收器类型	未定义	0x00	Enumerated
+0x2F80	77	DAB	DAB	未安装	0x00	Enumerated
+0x2F83	77	DAB	未分配		0x00	Enumerated
+0x2F87	77	DAB	接收器类型	保留	0x00	Enumerated
+0x3020	78	配套1	轨迹1未安装	未安装	0x00	Enumerated
+0x3021	78	配套1	轨迹2未安装	未安装	0x00	Enumerated
+0x3022	78	配套1	轨迹3未安装	未安装	0x00	Enumerated
+0x3023	78	配套1	轨迹4未安装	未安装	0x00	Enumerated
+0x3024	78	配套1	轨迹5未安装	未安装	0x00	Enumerated
+0x3025	78	配套1	供应商测试模式	不激活	0x00	Enumerated
+0x3026	78	配套1	配套系泊部位	已安装	0x00	Enumerated
+0x3027	78	配套1	错误	否	0x00	Enumerated
+0x3037	79	配套2	配套2	未定义	0x00	Enumerated
+0x3040	80	驻车摄像头	照相机模块	未安装	0x00	Enumerated
+0x3047	80	驻车摄像头			0x00	Enumerated
+0x3057	81	GPSReceiver	全球定位系统接收器	未定义	0x00	Enumerated
+0x3067	82	MD	微型磁碟	未定义	0x00	Enumerated
+0x3077	83	语音控制	语音控制	未定义	0x00	Enumerated
+0x3087	84	语言	语言选择	English	0x04	Enumerated
+0x3127	85	内部通讯	内部通讯	未定义	0x00	Enumerated
+0x3137	86	移动办公室	移动办公室	未定义	0x00	Enumerated
+0x3147	87	未分配(0x3147)	未分配		0x00	Enumerated
+0x3157	88	麦克风	麦克风	未定义	0x00	Enumerated
+0x3160	89	地图配置1	China Japan US & Canada Western Europe	禁用	0x00	Enumerated
+0x3161	89	地图配置1	Eastern Europe / Mexico	禁用	0x00	Enumerated
+0x3162	89	地图配置1	Russia / Australia	禁用	0x00	Enumerated
+0x3163	89	地图配置1	Middle East / Brazil	禁用	0x00	Enumerated
+0x3164	89	地图配置1	South Africa / New Zealand	禁用	0x00	Enumerated
+0x3165	89	地图配置1	Turkey / Argentina	禁用	0x00	Enumerated
+0x3166	89	地图配置1	India / Chile	禁用	0x00	Enumerated
+0x3167	89	地图配置1	Malaysia / Venezuela	禁用	0x00	Enumerated
+0x3170	90	地图配置2	Singapore	禁用	0x00	Enumerated
+0x3171	90	地图配置2	Thailand	禁用	0x00	Enumerated
+0x3172	90	地图配置2	Indonesia	禁用	0x00	Enumerated
+0x3173	90	地图配置2	Jordan	禁用	0x00	Enumerated
+0x3174	90	地图配置2	Lebanon	禁用	0x00	Enumerated
+0x3175	90	地图配置2	Israel	禁用	0x00	Enumerated
+0x3176	90	地图配置n2	Egypt	禁用	0x00	Enumerated
+0x3177	90	地图配置2	未分配	State 1	0x00	Enumerated
+0x3187	91	电话	蜂窝电话	未定义	0x00	Enumerated
+0x3227	92	中央控制台内的显示器		未定义	0x00	Enumerated
+0x3233	93	娱乐系统类型	娱乐系统	未定义	0x00	Enumerated
+0x3237	93	娱乐系统类型	性能	未定义	0x00	Enumerated
+0x3242	94	低端娱乐系统	CD播放器	未定义	0x00	Enumerated
+0x3245	94	低端娱乐系统	娱乐系统区域	未定义	0x00	Enumerated
+0x3247	94	低端娱乐系统	可展开式发动机罩	未安装	0x01	Enumerated
+0x3251	95	组合仪表5 (Speedometer)	主表单位	km/h	0x02	Enumerated
+0x3252	95	组合仪表5 (Speedometer)	小表	不显示	0x00	Enumerated
+0x3253	95	组合仪表5 (Speedometer)	后差速器类型	由SUMB控制	0x00	Enumerated
+0x3257	95	组合仪表5 (Speedometer)	范围	scale 1	0x01	Enumerated
+0x3261	96	组合仪表6 (Speedometer)	二级显示	displayed if trip computer different to speedometer main scale	0x02	Enumerated
+0x3263	96	组合仪表6 (Speedometer)	二级显示单位	与行车电脑相同	0x03	Enumerated
+0x3264	96	行车电脑	初始单位	metric	0x01	Enumerated
+0x3266	96	里程表	单位	与行车电脑一样	0x00	Enumerated
+0x3267	96	里程表	起首零位	显示	0x01	Enumerated
+0x3271	97	组合仪表7 (转速表)	Gauge Variant	scale 1	0x00	Enumerated
+0x3272	97	组合仪表7 (转速表)	车灯关闭警告	禁用	0x00	Enumerated
+0x3277	97	组合仪表7 (转速表)	红线	不显示	0x00	Enumerated
+0x3283	98	转速表	延时	032 rpm	0x04	Enumerated
+0x3287	98	转速表	延时停机转速	1000 rpm	0x07	Enumerated
+0x3321	99	组合仪表8 - Fuel Gauge	燃油表变量	variant 1	0x00	Enumerated
+0x3322	99	组合仪表8 - Fuel Gauge	第二个速度计显示	启用	0x01	Enumerated
+0x3323	99	组合仪表8 - 燃油表	泵数量(鞍型油箱)	单泵	0x00	Enumerated
+0x3324	99	组合仪表8 - 燃油表	第二个速度计显示单元菜单	启用	0x01	Enumerated
+0x3325	99	制动警告	EPB无法施加警告	红色刹车闪烁警告	0x01	Enumerated
+0x3327	99	制动警告	制动警告符号	ISO	0x01	Enumerated
+0x3337	100	网络接口	未分配	未定义	0x00	Enumerated
+0x3343	101	驻车辅助显示	驻车辅助显示	无	0x01	Enumerated
+0x3344	101	可视化安全带提示器	第三排座椅-安全带图片	禁用	0x00	Enumerated
+0x3345	101	可视化安全带提示器	第二排座椅-安全带图片	启用	0x01	Enumerated
+0x3346	101	可视化安全带提示器	第一排座椅-安全带图片	启用	0x01	Enumerated
+0x3347	101	可视化安全带提示器	可视化安全带提示器	启用	0x01	Enumerated
+0x3354	102	前摄像头	前摄像头	2个摄像头	0x03	Enumerated
+0x3357	102	未分配 (0x3357)	未分配		0x00	Enumerated
+0x3364	103	侧摄像头	侧摄像头	两侧摄像头	0x04	Enumerated
+0x3367	103	未分配 (0x3367)	未分配		0x00	Enumerated
+0x3373	104	环境照明01	照明区域	区域01	0x01	Enumerated
+0x3377	104	环境照明01	颜色选项	选项01	0x01	Enumerated
+0x3380	105	IBOC系统	IBOC接收器	未安装	0x00	Enumerated
+0x3382	105	倒档选择策略	倒档选择策略	世界其他国家地区	0x01	Enumerated
+0x3383	105	未分配(0x3383)	未分配	Unallocated - 105/3 - Condition 1	0x00	Enumerated
+0x3387	105	IBOC系统		未定义	0x00	Enumerated
+0x3427	106	RDAR (遥控数字音频接收器)		未定义	0x00	Enumerated
+0x3437	107	时钟显示		12小时制	0x01	Enumerated
+0x3441	108	单位	距离	公里	0x01	Enumerated
+0x3443	108	单位	温度	摄氏度	0x01	Enumerated
+0x3447	108	单位	燃油经济型计量单位	英里/加仑 (US)	0x03	Enumerated
+0x3457	109	TPMS 1		0	0x00	Decimal
+0x3467	110	TPMS 2		0	0x00	Decimal
+0x3477	111	TPMS 3		0	0x00	Decimal
+0x3487	112	TPMS 4		0	0x00	Decimal
+0x3527	113	TPMS 5		0	0x00	Decimal
+0x3537	114	TPMS 6		0	0x00	Decimal
+0x3547	115	TPMS 7		0	0x00	Decimal
+0x3557	116	TPMS 8		0	0x00	Decimal
+0x3567	117	TPMS 9		0	0x00	Decimal
+0x3577	118	TPMS 10		25	0x19	Decimal
+0x3587	119	TPMS 11		0	0x00	Decimal
+0x3627	120	TPMS 12		0	0x00	Decimal
+0x3637	121	TPMS 13		0	0x00	Decimal
+0x3647	122	TPMS 14		0	0x00	Decimal
+0x3657	123	TPMS 15		0	0x00	Decimal
+0x3667	124	TPMS 16		0	0x00	Decimal
+0x3677	125	TPMS 17		25	0x19	Decimal
+0x3687	126	TPMS 18		0	0x00	Decimal
+0x3727	127	TPMS ECU 1		0	0x00	Decimal
+0x3737	128	TPMS ECU 2		0	0x00	Decimal
+0x3747	129	TPMS ECU 3		0	0x00	Decimal
+0x3757	130	TPMS ECU 4		0	0x00	Decimal
+0x3767	131	TPMS ECU 5		0	0x00	Decimal
+0x3777	132	TPMS ECU 6		0	0x00	Decimal
+0x3783	133	自适应速度控制ECU	市场	美国	0x02	Enumerated
+0x3786	133	自适应速度控制ECU	雷达堵塞	标准堵塞级别-40dB	0x01	Enumerated
+0x3787	133	自适应速度控制ECU	跟车模式关闭	启用	0x01	Enumerated
+0x3827	134	Sirius蜂窝电话			0x00	ASCII
+0x3837	135	Sirius蜂窝电话			0x00	ASCII
+0x3847	136	Sirius蜂窝电话			0x00	ASCII
+0x3857	137	Sirius phone number 4			0x00	ASCII
+0x3867	138	Sirius蜂窝电话			0x00	ASCII
+0x3877	139	Sirius蜂窝电话			0x00	ASCII
+0x3887	140	Sirius蜂窝电话			0x00	ASCII
+0x3927	141	Sirius蜂窝电话			0x00	ASCII
+0x3937	142	Sirius蜂窝电话			0x00	ASCII
+0x3947	143	Sirius蜂窝电话			0x00	ASCII
+0x3957	144	Sirius蜂窝电话			0x00	ASCII
+0x3967	145	Sirius蜂窝电话			0x00	ASCII
+0x3977	146	Sirius蜂窝电话			0x00	ASCII
+0x3987	147	Sirius蜂窝电话			0x00	ASCII
+0x3A27	148	Sirius蜂窝电话			0x00	ASCII
+0x3A31	149	气囊1	驾驶员前气囊2级	已安装	0x02	Enumerated
+0x3A33	149	气囊1	乘客前气囊2级	已安装	0x02	Enumerated
+0x3A35	149	气囊1	驾驶员一侧安全气囊	已安装	0x02	Enumerated
+0x3A37	149	气囊1	乘客一侧安全气囊	已安装	0x02	Enumerated
+0x3A41	150	气囊2	驾驶员和乘客安全带预警器	未安装	0x01	Enumerated
+0x3A43	150	气囊2	驾驶员膝部气囊	未安装	0x01	Enumerated
+0x3A45	150	气囊2	乘客气囊动作关闭开关	未安装	0x01	Enumerated
+0x3A47	150	气囊2	乘客搭乘重量传感器OCS	已安装	0x02	Enumerated
+0x3A51	151	气囊3	乘客安全气囊禁用灯	已安装两个禁用灯	0x03	Enumerated
+0x3A53	151	气囊3	驾驶员头部后气囊	未安装	0x01	Enumerated
+0x3A55	151	气囊3	乘客头部后气囊	未安装	0x01	Enumerated
+0x3A57	151	Airbag 3	驾驶员管状充气结构-气帘	已安装	0x02	Enumerated
+0x3A61	152	气囊4	乘客管状充气结构-气帘	已安装	0x02	Enumerated
+0x3A63	152	气囊4	可展开电池系统	未安装	0x01	Enumerated
+0x3A65	152	气囊4	驾驶员安全带锁扣开关	已安装	0x02	Enumerated
+0x3A67	152	气囊4	乘客安全带锁扣开关	已安装	0x02	Enumerated
+0x3A77	153	蓝牙	蓝牙	未定义	0x00	Enumerated
+0x3A87	154	蜂窝电话语音语言		未定义	0x00	Enumerated
+0x3B27	155	分集式天线		未定义	0x00	Enumerated
+0x3B30	156	外部灯光4	角灯	未安装	0x00	Enumerated
+0x3B31	156	外部灯光4	辅助行驶灯	未安装	0x00	Enumerated
+0x3B32	156	外部灯光4	后日间行车灯	禁用	0x00	Enumerated
+0x3B33	156	外部灯光4	氙气灯	已安装	0x01	Enumerated
+0x3B34	156	外部灯光4	北美规格灯	已安装	0x01	Enumerated
+0x3B35	156	外部灯光4	静态弯曲灯	禁用	0x00	Enumerated
+0x3B36	156	外部灯光4	缩减旋转	禁用	0x00	Enumerated
+0x3B37	156	外部灯光4	缩减旋转-SAE market	禁用	0x00	Enumerated
+0x3B47	157	汽油发动机管理系统排放市场		联邦	0x01	Enumerated
+0x3B50	158	组合仪表1	超速报警	禁用	0x00	Enumerated
+0x3B53	158	组合仪表1	仪表类型	消息中心已安装	0x02	Enumerated
+0x3B54	158	组合仪表1	未分配	禁用	0x00	Enumerated
+0x3B56	158	组合仪表1	第二个速度计显示	显示	0x00	Enumerated
+0x3B57	158	组合仪表1	Haldex耦合器	未安装	0x00	Enumerated
+0x3B67	159	IPK速度计校准	偏差		0x7F	Binary
+0x3B72	160	组合仪表2	安全带提示	主动安全带提示(OCS已安装)	0x01	Enumerated
+0x3B73	160	Instrument Pack 2	座椅安全带提醒器图片	启用	0x01	Enumerated
+0x3B74	160	Instrument Pack 2	倒档警告显示	禁用	0x00	Enumerated
+0x3B75	160	Instrument Pack 2	钥匙插入音频警告	禁用	0x00	Enumerated
+0x3B76	160	Instrument Pack 2	刹车片磨损报警	启用	0x01	Enumerated
+0x3B77	160	Instrument Pack 2	行人撞击系统启用	禁用	0x00	Enumerated
+0x3B87	161	Service Interval (km) MSB			0x65	Enumerated
+0x3C27	162	Service Interval (km) LSB			0x90	Enumerated
+0x3C37	163	Fuel / Time to service (MSB)			0x01	Enumerated
+0x3C47	164	Fuel / Time to service (LSB)			0x6D	Enumerated
+0x3C52	165	转向角度传感器	定位（CAN 信号信号极性保持不变）	传感器托架-反向	0x02	Enumerated
+0x3C53	165	未分配(0x3C53)	未分配	不支持	0x00	Enumerated
+0x3C57	165	混合动力类型	混合动力类型	自动变速箱 启停	0x05	Enumerated
+0x3C60	166	雨刮器2	日间行车灯启用时前照灯清洗	禁用	0x00	Enumerated
+0x3C61	166	雨刮器2	斯堪的纳维亚/加拿大日间行车灯洗涤策略	禁用	0x00	Enumerated
+0x3C62	166	雨刮器2	雨刮器冬季停驻位置	启用	0x01	Enumerated
+0x3C63	166	雨刮器2	雨刮器灵敏度调整开关	雨量传感器灵敏度	0x01	Enumerated
+0x3C64	166	刮水器2	后雨刮器	已安装	0x01	Enumerated
+0x3C65	166	刮水器2	双清洗器壶	未安装	0x00	Enumerated
+0x3C66	166	雨刮器2	前照灯清洗压力	低	0x00	Enumerated
+0x3C67	166	刮水器2	后半部分刮水	启用	0x01	Enumerated
+0x3C71	167	后座椅按摩功能	前座椅按摩类型	无按摩功能	0x01	Enumerated
+0x3C73	167	R后座椅按摩功能	后座椅按摩类型	无按摩功能	0x01	Enumerated
+0x3C75	167	后座椅按摩功能	第二排PSA开关工作情况	无PSA功能	0x01	Enumerated
+0x3C76	167	后座椅按摩功能	未分配	条件1	0x00	Enumerated
+0x3C77	167	后座椅按摩功能	后记忆模块	未安装	0x00	Enumerated
+0x3C85	168	机油位置最大显示	最大值	1.0升	0x0A	Enumerated
+0x3C87	168	机油位置最大显示	最大油位置控制	0.5升	0x00	Enumerated
+0x3D20	169	C底盘部件1 / Rear Seat	轴距	标准	0x00	Enumerated
+0x3D22	169	Chassis Elements 1 / Rear Seat	车身风格	5门	0x03	Enumerated
+0x3D23	169	底盘部件1/后座椅	前座椅按摩	未安装	0x00	Enumerated
+0x3D24	169	底盘部件1/后座椅	后座椅按摩	未安装	0x00	Enumerated
+0x3D25	169	底盘部件1/后座椅	后座椅倾斜运动	未安装	0x00	Enumerated
+0x3D26	169	底盘部件1/后座椅	后座椅腰部运动	未安装	0x00	Enumerated
+0x3D27	169	底盘部件1/后座椅	乘客座椅离开运动	未安装	0x00	Enumerated
+0x3D37	170	最高车速	车速限值		0x65	Enumerated
+0x3D40	171	组合仪表4	机油警告	机油压力开关	0x00	Enumerated
+0x3D41	171	组合仪表4	冷却液位低警告	禁用	0x00	Enumerated
+0x3D42	171	组合仪表4	持续可变减震系统	未安装	0x00	Enumerated
+0x3D43	171	组合仪表4	机油压力警告	禁用	0x00	Enumerated
+0x3D44	171	组合仪表4	机油位置警告	启用	0x01	Enumerated
+0x3D45	171	组合仪表4	通过制动实现的碰撞缓冲（ACC）	未安装	0x00	Enumerated
+0x3D46	171	组合仪表4	维修显示	启用	0x01	Enumerated
+0x3D47	171	组合仪表4	机油位置只是单位	英制	0x01	Enumerated
+0x3D54	172	BMS1 - Primary Battery	电池1类型	H8 AGM 95/850 IGOR NWS	0x19	Enumerated
+0x3D55	172	BMS1 - Primary Battery	电池1类型	已安装	0x01	Enumerated
+0x3D57	172	BMS1 - Primary Battery	供电系统-控制功能模式	完全	0x03	Enumerated
+0x3D62	173	Tailgate/Trunk function	钥匙锁入保护	启用	0x02	Enumerated
+0x3D63	173	行李箱盖功能	遥控器释放行李箱盖	尾门	0x00	Enumerated
+0x3D64	173	行李箱盖功能	电动拨叉	未安装	0x00	Enumerated
+0x3D65	173	行李箱盖功能	电动尾门	已安装	0x01	Enumerated
+0x3D66	173	后安全带提醒器	特征	启用	0x01	Enumerated
+0x3D67	173	后安全带提醒器	后安全带扣开关	3个扣开关	0x01	Enumerated
+0x3D74	174	BMS2 - Secondary Battery	电池2-类型	未安装	0x00	Enumerated
+0x3D75	174	BMS2 - Secondary Battery	电池2-BMS	未安装	0x00	Enumerated
+0x3D76	174	BMS2 - Secondary Battery	冷气候模式	禁用	0x00	Enumerated
+0x3D77	174	BMS2 - Secondary Battery	直流变频器/PSDB	未安装	0x00	Enumerated
+0x3D80	175	Jaguar速度计校准	市场	市场1 : 2.0% + 0km/h (or 3.5% + 2km/h 仅限X150/X250)	0x01	Enumerated
+0x3D83	175	Jaguar速度计校准	km/h偏值(1 bit = 0.5km/h)	+ 0.0 km/h	0x00	Enumerated
+0x3D87	175	Jaguar速度计校准	百分比缩放比例(1bit - 0.5%)	2.0%缩放	0x04	Enumerated
+0x3E20	176	Jaguar安全带警告	安全带提醒器	启用	0x01	Enumerated
+0x3E21	176	Jaguar安全带警告	安全带提示音	启用/美国	0x01	Enumerated
+0x3E22	176	Jaguar安全带警告	S安全带警告灯超时	启用(60秒)	0x01	Enumerated
+0x3E27	176	行车电脑	行车电脑燃油经济性	0.08	0x1F	Enumerated
+0x3E30	177	动力传动系统附件可选项	脉宽调制冷却风扇	未安装	0x00	Enumerated
+0x3E31	177	动力传动系统附件可选项	E盒风扇	已安装	0x01	Enumerated
+0x3E32	177	动力传动系统附件可选项	AVCM(柴油机音质模块)	未安装	0x00	Enumerated
+0x3E33	177	动力传动系统附件可选项	燃油含水传感器	未安装	0x00	Enumerated
+0x3E34	177	DSC操作	紧急制动辅助	未安装	0x00	Enumerated
+0x3E37	177	变速箱类型描述	变速箱类型描述	8 Speed Auto (8HP45)	0x06	Enumerated
+0x3E40	178	安全	错误提示音	启用	0x01	Enumerated
+0x3E41	178	安全	进入延迟/音频确认	启用	0x01	Enumerated
+0x3E42	178	安全	超级锁定	禁用	0x00	Enumerated
+0x3E43	178	安全	发动机关闭时车门解锁	禁用	0x00	Enumerated
+0x3E44	178	安全	布设/解除安全系统时转向信号灯闪烁	启用	0x01	Enumerated
+0x3E45	178	安全	出错时转向信号灯闪烁	禁用	0x00	Enumerated
+0x3E47	178	安全	报警打开/关闭持续时间	10秒	0x02	Enumerated
+0x3E53	179	安全市场	市场	未定义	0x00	Enumerated
+0x3E54	179	安全市场	报警时开启车辆喇叭	启用	0x01	Enumerated
+0x3E55	179	安全市场	持续报警	启用	0x01	Enumerated
+0x3E56	179	安全市场	允许遥控器频率全部关闭	禁用	0x00	Enumerated
+0x3E57	179	安全市场	锁定闪烁反馈确认撞锁状态	启用	0x01	Enumerated
+0x3E61	180	安全报警持续时间	每个周边原因引发的报警次数	3	0x02	Enumerated
+0x3E63	180	安全报警持续时间	每个循环中的报警次数	3	0x02	Enumerated
+0x3E65	180	安全报警持续时间	每次报警启动包含的报警循环数	1	0x01	Enumerated
+0x3E67	180	安全报警持续时间	每个传感器的触发数量	3	0x02	Enumerated
+0x3E70	181	外部灯光5	前雾灯	已安装	0x01	Enumerated
+0x3E71	181	外部灯光5	远光灯	未安装	0x00	Enumerated
+0x3E72	181	外部灯光5	侧标志灯	已安装	0x01	Enumerated
+0x3E73	181	外部灯光5	转弯灯控制	智能接线盒	0x00	Enumerated
+0x3E74	181	外部灯光5	前雾灯与远光灯一起关闭	启用	0x01	Enumerated
+0x3E75	181	外部灯光5	雾灯与侧灯一起操作	禁用	0x00	Enumerated
+0x3E76	181	外部灯光5	拖挂车时后雾灯关闭	启用	0x01	Enumerated
+0x3E77	181	外部灯光5	在挡风玻璃刮水器激活时灯光点亮	启用	0x01	Enumerated
+0x3E80	182	气候控制部件2	前气候座椅(加热与冷却)	已安装	0x01	Enumerated
+0x3E81	182	气候控制部件2	加热方向盘	已安装	0x01	Enumerated
+0x3E82	182	气候控制部件2	后座椅加热	已安装	0x01	Enumerated
+0x3E83	182	气候控制部件2	后气候座椅（加热与冷却）	未安装	0x00	Enumerated
+0x3E87	182	气候控制部件2	挡风玻璃类型	红外线保护	0x02	Enumerated
+0x3F27	183	轮胎尺寸修正因数(MSB)	轮胎尺寸修正因数		0x1F	Binary
+0x3F37	184	轮胎尺寸修正因数(LSB)	轮胎尺寸修正因数		0x40	Binary
+0x3F40	185	动力传动系统部件2	自动速度限制器显示类型	自动速度极限完整显示	0x00	Enumerated
+0x3F43	185	动力传动系统部件2	标准速度控制显示类型（ACC）	标准速度控制完整显示+优先消息	0x03	Enumerated
+0x3F44	185	动力传动系统部件2	自动速度限制器	启用	0x01	Enumerated
+0x3F47	185	动力传动系统部件2	速度控制（ACC）	标准速度控制	0x02	Enumerated
+0x3F51	186	分动箱控制器	分动箱控制器开关类型	单极开关	0x01	Enumerated
+0x3F53	186	分动箱控制器	分动箱控制器开关类型	单速分动箱不带控制器	0x01	Enumerated
+0x3F55	186	变速箱选择器	变速箱选择器类型	手动档杆(Shift-by-Wire)	0x03	Enumerated
+0x3F56	186	变速箱锁	变速箱锁功能	禁用	0x00	Enumerated
+0x3F57	186	档位选择器开关(安装于方向盘)	换挡拨片	未安装	0x00	Enumerated
+0x3F63	187	轮毂尺寸	轮毂宽度	5.5 inch	0x01	Enumerated
+0x3F67	187	轮毂尺寸	轮毂直径	15 inch	0x01	Enumerated
+0x3F73	188	轮胎尺寸	宽度	195 mm	0x01	Enumerated
+0x3F77	188	轮胎尺寸	长宽比	0.2	0x01	Enumerated
+0x3F87	189	发动机动力输出(kW)	动力输出	XCL 3.0l AJ126 NA / Jaguar 2.0l GTDi / Jaguar 3.0l AJ126 SC STD POWER / AJ200P 240PS / XCL 5.0l AJ133 NA / Landrover 2.0l GTDi 240PS	0x0F	Enumerated
+0x4023	190	座椅类型	驾驶员座椅类型	未定义	0x00	Enumerated
+0x4027	190	座椅类型	乘客座椅	未定义	0x00	Enumerated
+0x4033	191	仪表皮肤	仪表皮肤	图案01	0x01	Enumerated
+0x4034	191	ECO数据	显示	禁用	0x00	Enumerated
+0x4037	191	ECO数据	变量	未定义	0x00	Enumerated
+0x4040	192	组合仪表3	组合仪表中的自适应巡航控制显示（ACC）	禁用	0x00	Enumerated
+0x4041	192	I组合仪表3	轮胎压力监测显示(仅限X150 Job1	启用	0x01	Enumerated
+0x4042	192	组合仪表3	智能钥匙电池电量不足警告	启用	0x01	Enumerated
+0x4043	192	组合仪表3	柴油微粒过滤器维修间隔发布SIA	禁用	0x00	Enumerated
+0x4044	192	组合仪表3	行车电脑加仑类型	公制	0x00	Enumerated
+0x4045	192	组合仪表3	仪表扫描	禁用	0x00	Enumerated
+0x4046	192	组合仪表3	行车电脑燃油经济性公制计量单位	l/100km	0x00	Enumerated
+0x4047	192	组合仪表3	盲点监控系统	未安装	0x00	Enumerated
+0x4053	193	气候控制部件3	气候座椅市场	世界其他国家	0x03	Enumerated
+0x4054	193	气候控制部件3	未分配	状态1	0x00	Enumerated
+0x4057	193	气候控制部件3	气候系统控制区域的数量	未定义	0x00	Enumerated
+0x4061	194	自动远光灯	系统状态	已安装	0x02	Enumerated
+0x4063	194	自动远光灯	灵敏度菜单	启用	0x02	Enumerated
+0x4064	194	自动远光灯	未使用	保留-调整1	0x00	Enumerated
+0x4067	194	自动远光灯	校准	校准1: 美国，加拿大，墨西哥	0x01	Enumerated
+0x4071	195	气囊5	侧倾传感器(RoSe)	2个	0x02	Enumerated
+0x4073	195	气囊5	驾驶员和乘客安全带预紧器，卷收器	已安装前安全带预紧器，卷收器	0x02	Enumerated
+0x4075	195	气囊5	座椅导轨位置传感器	已安装前排座椅	0x03	Enumerated
+0x4077	195	气囊5	时间数据记录器状态	已安装	0x02	Enumerated
+0x4083	196	发动机冷却液温度警告	发动机冷却液温度高温警告	警告不显示	0x00	Enumerated
+0x4087	196	发动机冷却液温度警告	发动机冷却液温度超高温警告	基础值2正09c	0x09	Enumerated
+0x4122		摄像机HMI策略		HMI由摄像机系统控制	0x02	Enumerated
+0x4125		信息娱乐系统		NGI High Line	0x04	Enumerated
+0x4127		第三排冷却器		未安装	0x01	Enumerated
+0x4132		车窗校准		不支持	0x00	Enumerated
+0x4135		车窗操作反馈		不支持	0x00	Enumerated
+0x4137		行李箱灯输出		不支持	0x00	Enumerated
+0x4141		FntDIFbdkMech		BCM通过LIN检测故障	0x02	Enumerated
+0x4144		驾驶员乘客安全带预张紧器		不支持	0x00	Enumerated
+0x4147		乘客侧安全气囊检测开关		不支持	0x00	Enumerated
+0x4151		右侧安全气囊		不支持	0x00	Enumerated
+0x4153		左侧安全气囊		不支持	0x00	Enumerated
+0x4155		驾驶员膝部气囊		不支持	0x00	Enumerated
+0x4157		乘客侧重量传感器		不支持	0x00	Enumerated
+0x4162		PAD灯		不支持	0x00	Enumerated
+0x4165		侧翻传感器		不支持	0x00	Enumerated
+0x4167		左侧头部气囊		不支持	0x00	Enumerated
+0x4171		右侧头部气囊		不支持	0x00	Enumerated
+0x4173		左侧气帘		不支持	0x00	Enumerated
+0x4175		右侧气帘		不支持	0x00	Enumerated
+0x4177		蓄电池展开系统		不支持	0x00	Enumerated
+0x4181		驾驶员安全带扣开关		不支持	0x00	Enumerated
+0x4183		乘客侧安全带扣开关		不支持	0x00	Enumerated
+0x4185		事件数据记录器		不支持	0x00	Enumerated
+0x4187		驾驶员负载限制器		未定义	0x00	Enumerated
+0x4221		乘客负载限制器		不支持	0x00	Enumerated
+0x4223		驾驶员锚定器预张紧器		不支持	0x00	Enumerated
+0x4225		乘客锚定器预张紧器		不支持	0x00	Enumerated
+0x4227		伸缩转向柱		不支持	0x00	Enumerated
+0x4231		第二排约束装置		不支持	0x00	Enumerated
+0x4233		第三排约束装置		不支持	0x00	Enumerated
+0x4235		DepRollHoops		不支持	0x00	Enumerated
+0x4237		展开式发动机罩		不支持	0x00	Enumerated
+0x4241		机盖展开锁扣		不支持	0x00	Enumerated
+0x4243		行人气囊		不支持	0x00	Enumerated
+0x4245		后日间行车灯		Sunset Clause禁用	0x01	Enumerated
+0x4247		近光警示		Dipped Beam Telltale禁用	0x01	Enumerated
+0x4251		日间行车灯电压控制		DRLs voltage control禁用	0x01	Enumerated
+0x4253		前位置灯电压控制		Front position lamps voltage control禁用	0x01	Enumerated
+0x4255		远光灯电压控制		Dipped beams voltage control禁用	0x01	Enumerated
+0x4257		主光束电压控制		Main beams voltage control禁用	0x01	Enumerated
+0x4261		辅助前照灯电压控制		Auxilliary front lamps voltage control禁用	0x01	Enumerated
+0x4263		前雾灯电压控制		Front fogs voltage control禁用	0x01	Enumerated
+0x4265		前转向指示器电压控制		Front direction indicators voltage control禁用	0x01	Enumerated
+0x4267		转弯灯电压控制		Cornering lamps voltage control禁用	0x01	Enumerated
+0x4271		静态弯道灯电压控制		Static bending lamps voltage control禁用	0x01	Enumerated
+0x4273		前侧灯电压控制		Front side markers voltage control禁用	0x01	Enumerated
+0x4275		后位置灯电压控制		Rear position lamps - voltage control禁用	0x01	Enumerated
+0x4277		刹车灯电压控制		Stop lamps - voltage control禁用	0x01	Enumerated
+0x4281		倒车灯电压控制		Reverse lamps - voltage control禁用	0x01	Enumerated
+0x4283		高位刹车灯电压控制		High mounted stop lamps - voltage control禁用	0x01	Enumerated
+0x4285		后雾灯电压控制		Rear fogs - voltage control禁用	0x01	Enumerated
+0x4287		后转向指示器电压控制		Rear direction indicators - voltage control禁用	0x01	Enumerated
+0x4322		座椅轨道位置传感器		不支持	0x00	Enumerated
+0x4325		DRL驱动器的行为同时激活		关闭	0x03	Enumerated
+0x4327		后侧灯电压控制		Rear side markers - voltage control禁用	0x01	Enumerated
+0x4332		位置灯驱动器的行为同时激活		无动作	0x01	Enumerated
+0x4335		侧灯驱动器的行为同时激活		无动作	0x01	Enumerated
+0x4337		牌照灯电压控制		Number plate lamps - voltage control禁用	0x01	Enumerated
+0x4342		日间行车灯同时危害行为激活		关闭	0x03	Enumerated
+0x4345		PosBehWhilstHazAct		No Action	0x01	Enumerated
+0x4347		后置AVIOP面板		Not Fitted	0x01	Enumerated
+0x4352		SMBehWhilstHazAct		No Action	0x01	Enumerated
+0x4355		RearPosBehWhDIAct		Rear Position Light remains on during DI activation	0x01	Enumerated
+0x4357		TouchPanel		Not Fitted	0x01	Enumerated
+0x4363		FrntDispVariant		10 Inch Single View	0x04	Enumerated
+0x4367		RearDispVariant		Not Fitted	0x01	Enumerated
+0x4372		FrontAVIOPanel		High Line Fitted with SIM (USB with OTG HDMI and SIM)	0x04	Enumerated
+0x4374		CabinCamera		Not Fitted	0x01	Enumerated
+0x4377		FntDRLType		Incorporated DRL and Pos	0x04	Enumerated
+0x4382		PDCAutoActivation		Default OFF configurable	0x02	Enumerated
+0x4384		OutboardVents		不支持	0x00	Enumerated
+0x4387		BluRayRegion		不支持	0x00	Enumerated
+0x4421		RemoteStartCapable		Vehicle supports RES	0x01	Enumerated
+0x4424		DRLMLSInteraction		Switch off with dip beam lamps or greater	0x02	Enumerated
+0x4427		DRLTransInteraction		Switch OFF in park or neutral	0x02	Enumerated
+0x4432		LowBeamFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4435		MainBeamFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4437		PwrTailProxSenPAM		Power tailgate with Proximity Sensing not fitted	0x01	Enumerated
+0x4442		BCMCtrlAmbLitSet		BCM does not control default values	0x01	Enumerated
+0x4445		DriverPassRetractor		不支持	0x00	Enumerated
+0x4447		StealthMode		不支持	0x00	Enumerated
+0x4451		QRBPowerPAM		不支持	0x00	Enumerated
+0x4454		DriverFrontAirbag		不支持	0x00	Enumerated
+0x4457		PassFrontAirbag		不支持	0x00	Enumerated
+0x4463		BumperType		不支持	0x00	Enumerated
+0x4467		TPMSVariant		Standard	0x01	Enumerated
+0x4473		DLNAStatus		Disabled	0x01	Enumerated
+0x4477		Gracenotes		North America	0x07	Enumerated
+0x4487		ATPC		HDC only	0x06	Enumerated
+0x4522		FntSdMkrFdbkMech		BCM receives fault data via LIN	0x02	Enumerated
+0x4525		FntPosFdbkMech		BCM receives fault data via LIN	0x02	Enumerated
+0x4527		RearLoadHeightCtrl		Fitted	0x02	Enumerated
+0x4532		DRLFdbkMech		BCM receives fault data via LIN	0x02	Enumerated
+0x4535		CnrLmpFdbkMech		BCM receives fault data via LIN	0x02	Enumerated
+0x4537		EDiffMtrBrk		Fitted	0x02	Enumerated
+0x4542		FntFogFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4545		RrSdMkFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4547		NavFullMapDisplay		Enabled	0x02	Enumerated
+0x4552		StpLmpFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4555		RrDIFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4557		EBoxFan		Not Fitted	0x01	Enumerated
+0x4562		RearPosFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4565		RearFogFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4567		StpLmpOnefail		One fail all fail Strategy disabled	0x01	Enumerated
+0x4572		RevLmpFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4575		FntSdMkrDrvMech		Driven via LIN	0x02	Enumerated
+0x4577		IntelEmrgBrkingPAEB		PAEB Fitted	0x02	Enumerated
+0x4582		FntPosDrvMech		Driven via LIN	0x02	Enumerated
+0x4585		DRLDrvMech		Driven via LIN	0x02	Enumerated
+0x4587		ATCIPC		Disabled	0x01	Enumerated
+0x4622		CnrLmpDrvMech		Driven via LIN	0x02	Enumerated
+0x4625		FntFogDrvMech		Driven via BCM	0x01	Enumerated
+0x4627		RrPassRrExtDetect		不支持	0x00	Enumerated
+0x4632		LowBeamDrvMech		Driven via BCM	0x01	Enumerated
+0x4635		HighBeamDrvMech		Driven via BCM	0x01	Enumerated
+0x4637		SideSwipeMitigation		SideSwipeMitigation not fitted	0x01	Enumerated
+0x4642		FntDIDrvMech		Driven via BCM	0x01	Enumerated
+0x4645		RrSdMkDrvMech		Driven via BCM	0x01	Enumerated
+0x4647		BrakeOverheatWarn		Brake overheat warning disabled	0x01	Enumerated
+0x4652		StpLmpDrvMech		Driven via BCM	0x01	Enumerated
+0x4655		RrDIDrvMech		Driven via BCM	0x01	Enumerated
+0x4657		ESSStationSound		Stationary Sound Disabled	0x01	Enumerated
+0x4662		RearPosDrvMech		Driven via BCM	0x01	Enumerated
+0x4665		RearFogDrvMech		Driven via BCM	0x01	Enumerated
+0x4667		ESSSimGearShift		Simulated Gear Shift Disabled	0x01	Enumerated
+0x4672		RevLmpDrvMech		Driven via BCM	0x01	Enumerated
+0x4675		ExLightingStalkTyp		Latching Switch	0x01	Enumerated
+0x4677		ESSPause		ESS Pause Switch Disabled	0x01	Enumerated
+0x4685		FntFogProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4687		IPCOilLvlMenuActiv		Oil level menu present	0x02	Enumerated
+0x4725		CHMSLProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4727		NavBtnFCIM		Not Fitted	0x01	Enumerated
+0x4735		FntDRLProfile		Diagnostic Profile 11	0x0B	Enumerated
+0x4737		ExtSyntheticSounder		ESS Not Fitted	0x01	Enumerated
+0x4745		FntSMProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4747		NLIAudioAmp		Not Fitted	0x01	Enumerated
+0x4755		FntPosProfile		Diagnostic Profile 4	0x04	Enumerated
+0x4757		TrajectoryLines		Enabled	0x01	Enumerated
+0x4765		FntDIProfile		Diagnostic Profile 19	0x13	Enumerated
+0x4767		P4UBtnFACP		Not Fitted	0x01	Enumerated
+0x4772		PCMEWULine		PCM Early Wake Up Line Fitted	0x02	Enumerated
+0x4775		RowTwoSquabRelAct		Without Row 2 Squab release actuator	0x01	Enumerated
+0x4777		PassAirbagVent		不支持	0x00	Enumerated
+0x4781		FwdCollWarnAEB		FCW fitted	0x02	Enumerated
+0x4783		IntelEmerBrkingCUIEB		IEB fitted	0x02	Enumerated
+0x4785		DrvDrowsyMonDDM		DDM not fitted	0x01	Enumerated
+0x4787		IntelSpdLimitISL		ISL not fitted	0x01	Enumerated
+0x4821		LaneKeepAssistLKA		LKA not fitted	0x01	Enumerated
+0x4823		Personalisation		不支持	0x00	Enumerated
+0x4825		ChauPersonalisation		不支持	0x00	Enumerated
+0x4827		Gliding		不支持	0x00	Enumerated
+0x4837		NGINLIDigRadRecSys		SDARS (includes 1 channel Analogue Radio)	0x0D	Enumerated
+0x4841		PDCBtnFCIM		Fitted	0x02	Enumerated
+0x4843		DistribPlayback		Distributed playback	0x02	Enumerated
+0x4845		IntStoreIMC		Fitted	0x02	Enumerated
+0x4847		IntStoreISC		Not Fitted	0x01	Enumerated
+0x4853		FntOptDiskDrive		DVD	0x03	Enumerated
+0x4857		CDiffType		不支持	0x00	Enumerated
+0x4863		FuelPumpType		Gasoline FPDM	0x01	Enumerated
+0x4867		EDTType		不支持	0x00	Enumerated
+0x4872		ExternalConnectivity		Cellular and WiFi Connectivity	0x02	Enumerated
+0x4875		ConnectInfoStatus		CI Framework & Browser Active	0x04	Enumerated
+0x4877		IntelCruiseCtrl		ICC not fitted	0x01	Enumerated
+0x4881		ElecDepTowBar		Not Fitted	0x01	Enumerated
+0x4883		TrailerLightMod		Not Fitted	0x01	Enumerated
+0x4885		NoseLoadMeasure		Not Fitted	0x01	Enumerated
+0x4887		TRMFitment		Not supported	0x00	Enumerated
+0x4921		TrailerLightTest		Not supported	0x00	Enumerated
+0x4923		DSSOffRoadOperation		Not supported	0x00	Enumerated
+0x4925		DepSideSteps		Not Fitted	0x01	Enumerated
+0x4927		WalkAwayLocking		Not supported	0x00	Enumerated
+0x4932		KeyFobTechnology		PEPS	0x02	Enumerated
+0x4934		RestrictSunroofOpen		Unrestricted	0x01	Enumerated
+0x4937		ClusterAlertGFX		Generic Warning Display	0x01	Enumerated
+0x4941		PedProtectSystem		Not supported	0x00	Enumerated
+0x4943		CameraBtnFCIM		Not Fitted	0x01	Enumerated
+0x4945		DualViewBtnFCIM		Not Fitted	0x01	Enumerated
+0x4947		RearExitDetect		Not supported	0x00	Enumerated
+0x4952		DriverDoorLock		Lock & Unlock Only	0x04	Enumerated
+0x4954		AutoAccessHeight		Fitted	0x02	Enumerated
+0x4957		PassDoorLock		Lock & Unlock Only	0x04	Enumerated
+0x4961		ECOmodeText		Not supported	0x00	Enumerated
+0x4964		RLPassDoorLock		Lock & Unlock Only	0x04	Enumerated
+0x4967		RRPassDoorLock		Lock & Unlock Only	0x04	Enumerated
+0x4972		AirIonizer		Front and Rear Air Ionizer not fitted	0x01	Enumerated
+0x4975		SoftCloseDoors		Fitted - Stand Alone Controlled	0x03	Enumerated
+0x4977		VehicleLocator		Enabled	0x02	Enumerated
+0x4981		TelLock		Enabled	0x02	Enumerated
+0x4983		WinGblClTelLock		Not supported	0x00	Enumerated
+0x4985		SunGblClTelLock		Enabled	0x02	Enumerated
+0x4987		TelUnlock		Enabled	0x02	Enumerated
+0x4A21		VASSensorOvride		Enabled	0x02	Enumerated
+0x4A23		TelAlarmReset		Enabled	0x02	Enumerated
+0x4A25		PwrTailProxSenPEPS		Not supported	0x00	Enumerated
+0x4A27		PwrTailKickSen		Power tailgate with Kick Sensing fitted	0x02	Enumerated
+0x4A32		DriverDoorLockLED		Local	0x03	Enumerated
+0x4A35		PassDoorLockLED		Local	0x03	Enumerated
+0x4A37		2ndRowLoadSpace		Not Fitted	0x01	Enumerated
+0x4A42		RLPassDoorLockLED		Local	0x03	Enumerated
+0x4A45		RRPassDoorLockLED		Local	0x03	Enumerated
+0x4A47		StopStartInhibitIcon		Stop Start Inhibited Icon disabled (Non-CFSS)	0x01	Enumerated
+0x4A55		FntLowBeamProfile		Diagnostic Profile 18	0x12	Enumerated
+0x4A57		HeightDataInputSelection		Not supported	0x00	Enumerated
+0x4A65		RearStopProfile		Diagnostic Profile 3	0x03	Enumerated
+0x4A67		HUDNavigation		Fitted	0x02	Enumerated
+0x4A75		RearPosProfile		Diagnostic Profile 3	0x03	Enumerated
+0x4A77		ActiveVanes		ActiveVanes fitted (upper OR lower OR both)	0x02	Enumerated
+0x4A85		RearSMProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4A87		ArmouredVehicle		Standard	0x01	Enumerated
+0x4B25		NumberPlateProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4B27		BMSColdClimateMode		Fitted	0x02	Enumerated
+0x4B35		RearFogProfile		Diagnostic Profile 4	0x04	Enumerated
+0x4B37		BrakeSystemTypeTVB		Not Fitted	0x01	Enumerated
+0x4B45		RearReverseProfile		Diagnostic Profile 4	0x04	Enumerated
+0x4B47		BrakeSystemTypeSCS		Not supported	0x00	Enumerated
+0x4B55		RearDIProfile		Diagnostic Profile 14	0x0E	Enumerated
+0x4B57		BrakeSystemTypeDSC		Not supported	0x00	Enumerated
+0x4B65		FntHighBeamProfile		Diagnostic Profile 9	0x09	Enumerated
+0x4B67		CentreDiffLock		Not Fitted	0x01	Enumerated
+0x4B75		CornerLampProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4B77		2CAS		Not Fitted	0x01	Enumerated
+0x4B82		CHMSLFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4B85		NumplateFdbkMech		BCM detects faults directly	0x01	Enumerated
+0x4B87		ARC		Not Fitted	0x01	Enumerated
+0x4C22		CHMSLDrvMech		Driven via BCM	0x01	Enumerated
+0x4C25		NumplateDrvMech		Driven via BCM	0x01	Enumerated
+0x4C27		SAS		Fitted	0x02	Enumerated
+0x4C33		PolePairsFntOnly		Not supported	0x00	Enumerated
+0x4C37		PolePairsRearOnly		48 Pole Pairs	0x02	Enumerated
+0x4C42		RideHeight		Not supported	0x00	Enumerated
+0x4C45		ActiveExhaust		System not fitted	0x01	Enumerated
+0x4C47		2CAL		Not supported	0x00	Enumerated
+0x4C55		ColmnDwnExtProfile		Not supported	0x00	Enumerated
+0x4C57		CoilCoil		Not Fitted	0x01	Enumerated
+0x4C65		ColmnExtProfile		Not supported	0x00	Enumerated
+0x4C67		GearShiftIndicator		Not Fitted	0x01	Enumerated
+0x4C75		ColmnRetractProfile		Not supported	0x00	Enumerated
+0x4C77		DieselSoundQuality		Not supported	0x00	Enumerated
+0x4C85		ColmnUpRetractProfile		Not supported	0x00	Enumerated
+0x4C87		WheelBase		Standard	0x01	Enumerated
+0x4D25		LampSupplyLeftProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4D27		CVD		Not Fitted	0x01	Enumerated
+0x4D35		LampSupplyRightProfile		Diagnostic Profile 1	0x01	Enumerated
+0x4D37		LimitedSlipDiff		Not supported	0x00	Enumerated
+0x4D45		HeatWasherProfile		Not supported	0x00	Enumerated
+0x4D47		RrDiffLockEDiff		Not Fitted	0x01	Enumerated
+0x4D55		ParkAidECUProfile		Not supported	0x00	Enumerated
+0x4D57		GearboxPaddlesInDrive		Disabled in Drive	0x02	Enumerated
+0x4D65		Ignition1Profile		Not supported	0x00	Enumerated
+0x4D67		SWSGearSelectors		Not Fitted	0x01	Enumerated
+0x4D75		Ignition2Profile		Not supported	0x00	Enumerated
+0x4D77		OilLevelWarning		Enabled	0x02	Enumerated
+0x4D85		Ignition3Profile		Not supported	0x00	Enumerated
+0x4D87		CMbBFitment		Not Fitted	0x01	Enumerated
+0x4E25		Ignition4Profile		Not supported	0x00	Enumerated
+0x4E27		TOJDO		Fitted	0x02	Enumerated
+0x4E35		Ignition5Profile		Not supported	0x00	Enumerated
+0x4E37		4CAS		Fitted	0x02	Enumerated
+0x4E45		Ignition6Profile		Not supported	0x00	Enumerated
+0x4E47		eCallgasTank		Not supported	0x00	Enumerated
+0x4E55		Ignition7Profile		Not supported	0x00	Enumerated
+0x4E57		eCalldieselTank		Not supported	0x00	Enumerated
+0x4E65		Ignition8Profile		Not supported	0x00	Enumerated
+0x4E67		eCallcompNaturalGas		Not supported	0x00	Enumerated
+0x4E75		Ignition9Profile		Not supported	0x00	Enumerated
+0x4E77		eCallliquidPropaneGas		Not supported	0x00	Enumerated
+0x4E82		ColmnDwnExtOpenLoad		Not supported	0x00	Enumerated
+0x4E85		ColmnExtOpenLoad		Not supported	0x00	Enumerated
+0x4E87		eCallelecEnergyStorage		Not supported	0x00	Enumerated
+0x4F22		ColmnRetractOpenLoad		Not supported	0x00	Enumerated
+0x4F25		ColmnUpRetractOpenLoad		Not supported	0x00	Enumerated
+0x4F27		eCallhydrogenStorage		Not supported	0x00	Enumerated
+0x4F32		LampSupplyLeftOpenLoad		No OL	0x01	Enumerated
+0x4F35		LampSupplyRightOpenLoad		No OL	0x01	Enumerated
+0x4F37		eCallotherPropStorage		Not supported	0x00	Enumerated
+0x4F42		HeatWasherOpenLoad		Not supported	0x00	Enumerated
+0x4F45		ParkAidECUOpenLoad		Not supported	0x00	Enumerated
+0x4F47		IMCFanAssyAuxCooling		Not Fitted	0x01	Enumerated
+0x4F52		Ignition1OpenLoad		Not supported	0x00	Enumerated
+0x4F55		Ignition2OpenLoad		Not supported	0x00	Enumerated
+0x4F57		EcoModeButtonFit		Not supported	0x00	Enumerated
+0x4F62		Ignition3OpenLoad		Not supported	0x00	Enumerated
+0x4F65		Ignition4OpenLoad		Not supported	0x00	Enumerated
+0x4F67		EasyEntExtSetMenu		Disabled	0x01	Enumerated
+0x4F72		Ignition5OpenLoad		Not supported	0x00	Enumerated
+0x4F75		Ignition6OpenLoad		Not supported	0x00	Enumerated
+0x4F77		ScnSurrSwtchs		Not Fitted	0x01	Enumerated
+0x4F82		Ignition7OpenLoad		Not supported	0x00	Enumerated
+0x4F85		Ignition8OpenLoad		Not supported	0x00	Enumerated
+0x4F87		ComfortPlus		Comfort Plus Not Fitted	0x01	Enumerated
+0x5022		Ignition9OpenLoad		Not supported	0x00	Enumerated
+0x5025		AutoRangeChange		Not supported	0x00	Enumerated
+0x5027		HSTDervative		HST Not Fitted	0x01	Enumerated
+0x5033		TrailerTestItem1		All lights on	0x0C	Enumerated
+0x5037		TrailerTestItem2		LH direction indicator	0x01	Enumerated
+0x5043		TrailerTestItem3		Brake light	0x09	Enumerated
+0x5047		TrailerTestItem4		RH direction indicator	0x02	Enumerated
+0x5053		TrailerTestItem5		Both position lights	0x06	Enumerated
+0x5057		TrailerTestItem6		Reverse light	0x07	Enumerated
+0x5063		TrailerTestItem7		Fog light	0x08	Enumerated
+0x5067		TrailerTestItem8		Sequence complete	0x0A	Enumerated
+0x5073		TrailerTestItem9		Sequence complete	0x0A	Enumerated
+0x5077		TrailerTestItem10		Sequence complete	0x0A	Enumerated
+0x5082		GGSWinterMode		Not available for selection	0x01	Enumerated
+0x5085		MudRutMode		Not available for selection	0x01	Enumerated
+0x5087		DrLtchStatusFdbk		ALL Doors have a Physical Latch Status Feedback	0x01	Enumerated
+0x5122		SandProgMode		Not available for selection	0x01	Enumerated
+0x5125		RockCrawlMode		Not available for selection	0x01	Enumerated
+0x5127		PartialNetworkEnable		Not supported	0x00	Enumerated
+0x5132		DynamicProgMode		Not available for selection	0x01	Enumerated
+0x5135		ECOProgMode		Not available for selection	0x01	Enumerated
+0x5137		SideWinGlassThick		Not supported	0x00	Enumerated
+0x5142		USB2Hub		Not Fitted	0x01	Enumerated
+0x5145		USB3Repeater		Not Fitted	0x01	Enumerated
+0x5147		AlrmSensOnSingLock		No Alarm Sensors on Single Lock	0x01	Enumerated
+0x5157		MaxVehicleSpeed			0x65	Enumerated
+0x5162		FntSMOpenLoad		No OL	0x01	Enumerated
+0x5165		FntPosOpenLoad		No OL	0x01	Enumerated
+0x5167		LockFuelFillFlap		Not Fitted	0x01	Enumerated
+0x5172		FntDRLOpenLoad		No OL	0x01	Enumerated
+0x5175		FntLowBeamOpenLoad		No OL	0x01	Enumerated
+0x5177		MHLastUserMode		Last user memory mode disabled	0x01	Enumerated
+0x5182		FntFogOpenLoad		No OL	0x01	Enumerated
+0x5185		RearPosOpenLoad		No OL	0x01	Enumerated
+0x5187		BodyStyleRoofStructure		Not supported	0x00	Enumerated
+0x5222		RearReverseOpenLoad		No OL	0x01	Enumerated
+0x5225		RearFogOpenLoad		No OL	0x01	Enumerated
+0x5227		BattStatChargeGauge		Variant 2	0x02	Enumerated
+0x5232		FrontCornerLampOpenLoad		No OL	0x01	Enumerated
+0x5235		CHMSLOpenLoad		No OL	0x01	Enumerated
+0x5237		AVES		Not supported	0x00	Enumerated
+0x5242		NumberPlateOpenLoad		No OL	0x01	Enumerated
+0x5245		RearDIOpenLoad		OL in ON state	0x03	Enumerated
+0x5247		ConvenienceFold		Not Fitted	0x01	Enumerated
+0x5252		RearStopOpenLoad		No OL	0x01	Enumerated
+0x5255		RearSMOpenLoad		No OL	0x01	Enumerated
+0x5257		VehDimTouch		Enabled	0x02	Enumerated
+0x5262		FntHighBeamOpenLoad		No OL	0x01	Enumerated
+0x5265		FntDIOpenLoad		No OL	0x01	Enumerated
+0x5267		DiesAfterSysUREASCR		Disabled	0x01	Enumerated
+0x5272		OilLevelTopUpRes		0.5 litre	0x01	Enumerated
+0x5275		SteeringAngleSensor		Sensor Mount Normal	0x01	Enumerated
+0x5277		OilPressureWarn		Disabled	0x01	Enumerated
+0x5287		OilLevelTopUpValue		1.0 litre	0x0A	Enumerated
+0x5323		SpdoCalkmhOffset		+ 0.0 km/h	0x01	Enumerated
+0x5327		EDiffType		EDiff Type 1	0x01	Enumerated
+0x5331		DriverMemDrSwtchPk		Fitted	0x02	Enumerated
+0x5333		PassMemDrSwtchPk		Fitted	0x02	Enumerated
+0x5335		RearDriverMemDrSwtchPk		Not Fitted	0x01	Enumerated
+0x5337		RearPassMemDrSwtchPk		Not Fitted	0x01	Enumerated
+0x5344		SpdoCalPercentScale		2.0% Scaling	0x05	Enumerated
+0x5347		CoolingFanFitment		Viscous fan fitted	0x04	Enumerated
+0x5352		SteerWlhlSwtchType		SWS Dual LIN & AmbientLight (default)	0x01	Enumerated
+0x5355		SplitStopFailStrat		Strategy disabled	0x01	Enumerated
+0x5357		LRTerrainJGAllRdLaunch		Enabled	0x02	Enumerated
+0x5362		TowAssist		Not Enabled	0x01	Enumerated
+0x5365		AutoAccess		Feature available with driver configuration via IPK	0x02	Enumerated
+0x5367		HdlampLvlSensPos		Right side height sensors	0x02	Enumerated
+0x5374		GenericEngPwrOut		Standard standard power engine variant	0x0F	Enumerated
+0x5377		PTCruiseFitment		Normal cruise fitted	0x02	Enumerated
+0x5387		TPMSCalibration			0x23	Enumerated
+0x5427		FinalDriveRatioComp (MSB)		3.73 FDR	0x0A	Enumerated
+0x5437		FinalDriveRatioComp (LSB)		3.73 FDR	0xAA	Enumerated
+0x5447		NextGenPwrTrnSQ		PTSQ NLI	0x02	Enumerated
+0x5457		ActSndDesignPwrlvl		NGPTSQ	0x02	Enumerated
+0x5462		DrivenWheels		All Wheel Drive (permanently connected)	0x03	Enumerated
+0x5465		DoorBodyStyle		5 Door / 4 Door estate body style	0x03	Enumerated
+0x5467		PanoramicRoof		Fitted	0x02	Enumerated
+0x5477		PetrolEMSEmissMkt		Federal	0x01	Enumerated
+0x5487		NextGenPwrTrnSQCalNo		Calibration 1	0x01	Enumerated
+0x5523		RearDriverLinSWP		Not supported	0x00	Enumerated
+0x5527		RearPassLinSWP		Not supported	0x00	Enumerated
+0x5533		BrakeDiscSizeFront		19 inch	0x06	Enumerated
+0x5537		BrakeDiscSizeRear		19 inch	0x06	Enumerated
+0x5542		BrakeDiscMaterial		Not supported	0x00	Enumerated
+0x5545		ElectricFan		Not Fitted	0x01	Enumerated
+0x5547		Sportbrake		Not supported	0x00	Enumerated
+0x5557		ServiceIntervalMSB			0x65	Enumerated
+0x5567		ServiceIntervalLSB			0x90	Enumerated
+0x5577		TyreDynamicRollRadMSB		2325mm (D8 L551) / 2387mm (L405 L462 L494)	0x09	Enumerated
+0x5587		TyreDynamicRollRadLSB		2387mm (L405 L462 L494)	0x53	Enumerated
+0x5627		TyreSizeCorrnFac			0x1F	Enumerated
+0x5637		TyreSizeCorrnFac			0x40	Enumerated
+0x5647		EnginePowerOutput		MSB	0x00	Enumerated
+0x5657		EnginePowerOutput			0xFA	Enumerated
+0x5667		FuelTimeToServiceMSB		0x0001 : 1 day (min value)	0x01	Enumerated
+0x5677		FuelTimeToServiceLSB			0x6D	Enumerated
+0x5683		PDC		Eight Channel fitted	0x03	Enumerated
+0x5687		HybridType		Auto Transmission Stop/Start	0x05	Enumerated
+0x5723		GearboxDescription		8 Speed Auto (8HP45)	0x04	Enumerated
+0x5727		ChassisDescription		No sub-variant	0x01	Enumerated
+0x5732		BrakeWarningSymbol		ISO	0x02	Enumerated
+0x5735		TransmissionSelectr		Stick Shifter (Shift-by-Wire)	0x03	Enumerated
+0x5737		PTAODieWaterInSensr		Not Fitted	0x01	Enumerated
+0x5741		ConfigDynamicMode		Not Fitted	0x01	Enumerated
+0x5743		ReverseGearSelStrat		Reverse Gear Selection Strategy Disabled	0x01	Enumerated
+0x5747		GenericWheelBase		Standard	0x08	Enumerated
+0x5757		VIN1		S	0x53	ASCII
+0x5767		VIN2		A	0x41	ASCII
+0x5777		VIN3		L	0x4C	ASCII
+0x5787		VIN4		W	0x57	ASCII
+0x5827		VIN5		R	0x52	ASCII
+0x5837		VIN6		2	0x32	ASCII
+0x5847		VIN7		F	0x46	ASCII
+0x5857		VIN8		V	0x56	ASCII
+0x5867		VIN9		0	0x30	ASCII
+0x5877		VIN10		H	0x48	ASCII
+0x5887		VIN11		A	0x41	ASCII
+0x5927		VIN12		6	0x36	ASCII
+0x5937		VIN13		8	0x38	ASCII
+0x5947		VIN14		5	0x35	ASCII
+0x5957		VIN15		1	0x31	ASCII
+0x5967		VIN16		0	0x30	ASCII
+0x5977		VIN17		0	0x30	ASCII
+0x5983		FntDispCableLgth		0 - 1.9m	0x02	Enumerated
+0x5987		FntClusterCableLgth		2 - 2.9m	0x03	Enumerated
+0x5A23		FntUIPCableLgth		0 - 1.9m	0x02	Enumerated
+0x5A27		RearLftDispCableLgth		Not Fitted	0x01	Enumerated
+0x5A33		RearRghtDisplayCableLgth		Not Fitted	0x01	Enumerated
+0x5A37		RearUIPLnk1CableLgth		Not Fitted	0x01	Enumerated
+0x5A43		RearUIPLnk2CableLgth		Not Fitted	0x01	Enumerated
+0x5A45		RrLmpBhWhTgateOpen		TrunkStatusOutput Disabled	0x01	Enumerated
+0x5A47		AllSurfaceInfo		Not Fitted	0x01	Enumerated
+0x5A52		BrowserSearch		Default	0x01	Enumerated
+0x5A55		DriverWinSWPack		Rear Window Lock Out Switch	0x02	Enumerated
+0x5A57		SeatPSASWFitted		Not supported	0x00	Enumerated
+0x5A61		SeatMasgSWFittedD		Not supported	0x00	Enumerated
+0x5A63		SeatMasgSWFittedP		Not supported	0x00	Enumerated
+0x5A65		SeatMasgSWFittedRD		Not supported	0x00	Enumerated
+0x5A67		SeatMasgSWFittedRP		Not supported	0x00	Enumerated
+0x5A71		SeatLumbSWFittedD		Not supported	0x00	Enumerated
+0x5A73		SeatLumbSWFittedP		Not supported	0x00	Enumerated
+0x5A75		SeatLumbSWFittedRD		Not supported	0x00	Enumerated
+0x5A77		SeatLumbSWFittedRP		Not supported	0x00	Enumerated
+0x5A81		SeatMovSWFittedD		Not supported	0x00	Enumerated
+0x5A83		SeatMovSWFittedP		Not supported	0x00	Enumerated
+0x5A85		SeatMovSWFittedRD		Not supported	0x00	Enumerated
+0x5A87		SeatMovSWFittedRP		Not supported	0x00	Enumerated
+0x5B22		GrillActiveVanes		Upper Grill Active Vanes fitted only	0x03	Enumerated
+0x5B25		SpareWheelCarrier		Not supported	0x00	Enumerated
+0x5B27		PNChargingFunction		Not supported	0x00	Enumerated
+0x5B32		AutoBlindEnabled		Disabled	0x01	Enumerated
+0x5B34		HeatedWasherJets		Fitted	0x02	Enumerated
+0x5B37		ViscousFan		Single	0x02	Enumerated
+0x5B41		WiperMotorModule		Standard wiper motor	0x01	Enumerated
+0x5B43		AutolightSensorFit		Fitted	0x02	Enumerated
+0x5B45		AquaBladeFitted		Not Fitted	0x01	Enumerated
+0x5B47		AquaBladeWashDir		Wash upstroke	0x01	Enumerated
+0x5B51		PNFuelRefill		Not supported	0x00	Enumerated
+0x5B53		CDiffBknHalfShfDet		Not supported	0x00	Enumerated
+0x5B57		MovingWindows		Four Moving Windows	0x04	Enumerated
+0x5B62		BodyStyleSeatLayout		5-seat style (2 row)	0x02	Enumerated
+0x5B64		Towing		Not supported	0x00	Enumerated
+0x5B67		CDiffRangeChgType		Not supported	0x00	Enumerated
+0x5B71		LaserHighBeam		Laser High Beam Disabled	0x01	Enumerated
+0x5B73		AdaptDrvBeam		AdaptDrvBeam Disabled	0x01	Enumerated
+0x5B75		FntAnimatedIndicator		Not Fitted	0x01	Enumerated
+0x5B77		RearAnimatedIndicator		Not Fitted	0x01	Enumerated
+0x5B82		HeightInputSelection		Headlamp levelling disabled	0x01	Enumerated
+0x5B85		GestureBlindFront		Not supported	0x00	Enumerated
+0x5B87		DriverIDCamera		Not supported	0x00	Enumerated
+0x5C22		DriverID		Not supported	0x00	Enumerated
+0x5C25		FrontPassengerID		Not supported	0x00	Enumerated
+0x5C27		DriverIDKeys		Not supported	0x00	Enumerated
+0x5C32		Row2PassengerID		Not supported	0x00	Enumerated
+0x5C35		Personalisation		Not Fitted	0x01	Enumerated
+0x5C37		DriverIDPhones		Not supported	0x00	Enumerated
+0x5C42		Row3PassengerID		Not supported	0x00	Enumerated
+0x5C44		DriverIDSeats		Not supported	0x00	Enumerated
+0x5C47		EcoDataGallonType		Not supported	0x00	Enumerated
+0x5C53		FrntLowerDispVariant		Not Fitted	0x01	Enumerated
+0x5C57		FrntUpperDispVariant		Not Fitted	0x01	Enumerated
+0x5C62		FrntLowerDispKeys		Not supported	0x00	Enumerated
+0x5C64		FrntUpperDeployable		Not Fitted	0x01	Enumerated
+0x5C67		TransCalibrationIndex		Calibration Index #1	0x01	Enumerated
+0x5C73		DieselEMSEmissMkt		Fedral	0x01	Enumerated
+0x5C75		NonDepIllumDoorHnd		Not supported	0x00	Enumerated
+0x5C77		NGICamBanStrat		Warning Banner Displayed by Infotainment	0x02	Enumerated
+0x5C81		SmartExitFntDrvDr		Not supported	0x00	Enumerated
+0x5C83		SmartExitFntPassDoor		Not supported	0x00	Enumerated
+0x5C85		SmartExitRrDrvDoor		Not supported	0x00	Enumerated
+0x5C87		SmartExitRrPassDoor		Not supported	0x00	Enumerated
+0x5D23		FrntDrvWdowSwtchpk		Not Supported	0x00	Enumerated
+0x5D27		FntPassWdowSwtchpk		Not Supported	0x00	Enumerated
+0x5D33		RrDrvWdowSwtchpk		Not Supported	0x00	Enumerated
+0x5D37		RrPassWdowSwtchpk		Not Supported	0x00	Enumerated
+0x5D43		ChargingInlet1		Not supported	0x00	Enumerated
+0x5D47		ChargingInlet2		Not supported	0x00	Enumerated
+0x5D53		MicrophoneType		Microphone Type 1	0x02	Enumerated
+0x5D57		TelematicsSpkrType		TELEMATICS_MID_RANGE 	0x02	Enumerated
+0x5D67		EMMaxDurEngOff		Not supported	0x00	Enumerated
+0x5D77		FMMaxFuelAge			0x02	Enumerated
+0x5D82		TimedChrgFeature		Not supported	0x00	Enumerated
+0x5D85		WirelessCharger		Not supported	0x00	Enumerated
+0x5D87		SelectStateCharge		Not supported	0x00	Enumerated
+0x5E22		ReverseMirrorDip		Not supported	0x00	Enumerated
+0x5E25		ReverseMirrorDipStrat		Not supported	0x00	Enumerated
+0x5E27		ParkAidCommsBus		Not Supported	0x00	Enumerated
+0x5E33		SeatThermHMIControl		Display 1st Row Seat Thermal Page in Touchscreen (not 2nd or 3rd)	0x03	Enumerated
+0x5E35		RearRoofBlindFitted		Not Fitted	0x01	Enumerated
+0x5E37		OpenableICP		Not Fitted	0x01	Enumerated
+0x5E47		BrakePedalFeel		Not Supported	0x00	Enumerated
+0x5E53		IMCClusterAPIXClrDpth		16 bit RGB565	0x02	Enumerated
+0x5E57		IMCClusterAPIXVideoSpd		1 Gigabits/second	0x03	Enumerated
+0x5E61		CntrRetractPretRow1		Not supported	0x00	Enumerated
+0x5E63		CntrRetractPretRow2		Not supported	0x00	Enumerated
+0x5E65		CntrRetractPretRow3		Not supported	0x00	Enumerated
+0x5E67		FarSideOccImpAbgRow1		Not supported	0x00	Enumerated
+0x5E71		PNPreConEnable		Not supported	0x00	Enumerated
+0x5E74		AuxCoolingPump		Not supported	0x00	Enumerated
+0x5E77		CleanSurroundCams		Not supported	0x00	Enumerated
+0x5E82		RoofType		Not supported	0x00	Enumerated
+0x5E84		GrndMarkingDetect		Not supported	0x00	Enumerated
+0x5E87		ParkAssistHMI		Low Line HMI	0x01	Enumerated
+0x5F21		LSAEB		Not supported	0x00	Enumerated
+0x5F24		ClimateSyncHardKey		Climate Synchronisation Hard Key NOT fitted	0x01	Enumerated
+0x5F27		OverrunConfig		Not Fitted	0x01	Enumerated
+0x5F31		ActivityKey		Not Fitted	0x01	Enumerated
+0x5F34		RDUType		Not Supported	0x00	Enumerated
+0x5F37		DisplayTemperature		Do not display Temperature value in Touchscreen.	0x01	Enumerated
+0x5F47		NGISubscriptionVerMSB		Not Supported	0x00	Enumerated
+0x5F57		NGISubscriptionVerLSB			0x05	Enumerated
+0x5F67		IMCAPIXVideoSettings		Channel0: 1280x480 Channel1: Disabled	0x02	Enumerated
+0x5F71		DPFDesulphurisation		Not supported	0x00	Enumerated
+0x5F73		AutoVents		Auto Vents not fitted	0x01	Enumerated
+0x5F75		LHSWSPhoneState		Not Fitted	0x01	Enumerated
+0x5F77		LHSWSFavourite		Not Fitted	0x01	Enumerated
+0x5F82		AdjustTemperature		Do not display Temperature adjust buttons in Touchscreen.	0x01	Enumerated
+0x5F85		HomeLinkRegion		Not supported	0x00	Enumerated
+0x5F87		ChauffeurMode		Not supported	0x00	Enumerated
+0x6022		DepDoorHandType		Not supported	0x00	Enumerated
+0x6025		HUDSubType		HUD Not Fitted	0x01	Enumerated
+0x6027		CPillarSwitch		Not Fitted	0x01	Enumerated
+0x6037		IntelligentSeatFold		Not fitted	0x01	Enumerated
+0x6042		SpoilerType		Not supported	0x00	Enumerated
+0x6045		HybridModeSelect		Not enabled	0x01	Enumerated
+0x6047		TipandSlideSwitch		Not Fitted	0x01	Enumerated
+0x6052		WirelessChargingAlign		Not supported	0x00	Enumerated
+0x6055		AutoTRHostECU		Not supported	0x00	Enumerated
+0x6057		iBBMInstalled		Not supported	0x00	Enumerated
+0x6062		DisplayDistribution		Display Front Climate Distribution button(s) in Touchscreen.	0x02	Enumerated
+0x6065		SlcTimedClimate		Not Fitted	0x01	Enumerated
+0x6067		FwdTrafficDetection		Not supported	0x00	Enumerated
+0x6072		SlcCabinTemp		Not Fitted	0x01	Enumerated
+0x6075		SlcClimateSeats		Not Fitted	0x01	Enumerated
+0x6077		SeeThroughBonnet		Not Supported	0x00	Enumerated
+0x6082		SlcMassageSeats		Not Fitted	0x01	Enumerated
+0x6085		SlcHeatedSteerWhl		Not Fitted	0x01	Enumerated
+0x6087		TJAICA		Not Fitted	0x01	Enumerated
+0x6122		SlcMediaSource		Not Fitted	0x01	Enumerated
+0x6125		SlcDeviceReminder		Not Fitted	0x01	Enumerated
+0x6127		TRUserInputMethod		Not Supported	0x00	Enumerated
+0x6132		SlcCallList		Not Fitted	0x01	Enumerated
+0x6135		EMSMktCal		Not Supported	0x00	Enumerated
+0x6137		AFS123		AFS123 Disabled	0x01	Enumerated
+0x6144		BrakePadTypeRear		Not supported	0x00	Enumerated
+0x6147		ActiveExhaustButtonType		Not Fitted	0x01	Enumerated
+0x6154		BrakePadTypeFront		Not supported	0x00	Enumerated
+0x6157		SurroundMode		Without Surround Audio	0x01	Enumerated
+0x6163		ElectricDrivePower		Not Supported	0x00	Enumerated
+0x6167		MildHybridType		Not supported	0x00	Enumerated
+0x6177		HitchAssistTowbar		No Tow bar fitted 	0x01	Enumerated
+0x6187		HeadlightsVariant		Not Supported	0x00	Enumerated
+0x6223		BodyKitStyle		Core body kit	0x01	Enumerated
+0x6225		ClearExitDetectionSystem		Not Supported	0x00	Enumerated
+0x6227		TaskLighting		Not Supported	0x00	Enumerated
+0x6233		SuspensionType		4 Corner Air	0x03	Enumerated
+0x6235		DriveAssist		Drive Assist Avaliable	0x02	Enumerated
+0x6237		BacklightStratSel		BacklightNight/DayControlStrategy	0x01	Enumerated
+0x6242		SAPServerType		Actia SAP Server	0x02	Enumerated
+0x6244		SeatTherm2ndRowHMIControl		Do not display 2nd row Seat Thermal page	0x02	Enumerated
+0x6247		DynamicLiteMode		Not available for selection	0x01	Enumerated
+0x6251		Front23BuckSwitch		Not supported	0x00	Enumerated
+0x6253		AskOnExit		Not Supported	0x00	Enumerated
+0x6255		EngineNoiseCancel		Engine Noise Cancellation Not Fitted	0x01	Enumerated
+0x6257		IntelEmrgBrkingCAEB		Not supported	0x00	Enumerated
+0x6262		HeatedDoorArmrest		Not Fitted	0x01	Enumerated
+0x6265		HtdFntCntreArmrst		Not Fitted	0x01	Enumerated
+0x6267		Row3BuckleSwitch		Not Supported	0x00	Enumerated
+0x6272		HtdRearCntreArmrst		Not Fitted	0x01	Enumerated
+0x6274		DriverHeatedCalfRest		Not Fitted	0x01	Enumerated
+0x6277		UWBPEPSRANGEADJUSTUSEVSA			0x00	Enumerated
+0x6281		HeatedMapPocket		Not Fitted	0x01	Enumerated
+0x6284		UpperGloveBox		Not Fitted	0x01	Enumerated
+0x6287		LowerGloveBox		Electric	0x03	Enumerated
+0x6327		UWBSATFreqChannel		Not Supported	0x00	Enumerated
+0x6332		MirrorPositionFeature		Not supported	0x00	Enumerated
+0x6334		SeatMsg2ndRowHMIControl		Do not display 2nd row Seat Massage page	0x02	Enumerated
+0x6337		ExhaustType		Not Supported	0x00	Enumerated
+0x6343		DisplaySeatTempZone		Display 1st Row seat Zone controls in Front Touchscreen (not 2nd or 3rd)	0x03	Enumerated
+0x6347		DisplaySeatTempIntensity		Display 1st Row seat Temperature Intensity controls in Front Touchscreen (not 2nd or 3rd)	0x03	Enumerated
+0x6353		SeatMsgHMIControl		Display 1st Row Seat Massage Page in Touchscreen (not 2nd or 3rd)	0x03	Enumerated
+0x6355		ElectFrntLoadspace		Not Supported	0x00	Enumerated
+0x6357		TouristMode		Not Supported	0x00	Enumerated
+0x6364		RearBumperType		Not Supported	0x00	Enumerated
+0x6367		WheelInformation		Use legacy logic	0x03	Enumerated
+0x6374		ExhaustHeatshieldType		Not Supported	0x00	Enumerated
+0x6377		SlopeInformation		Use legacy logic	0x03	Enumerated
+0x6382		DriverMicrophoneType		Unbalanced Microphone	0x02	Enumerated
+0x6385		AutoVentsType		Not Supported	0x00	Enumerated
+0x6387		ADBInitialisation		Not Supported	0x00	Enumerated
+0x6422		RadarForwardAlert		Not Supported	0x00	Enumerated
+0x6424		CDMDynamicHandling		Dynamic handling not Fitted	0x01	Enumerated
+0x6427		CamForwardAlert		Not Supported	0x00	Enumerated
+0x6437		GearRatioSpread		Not Supported	0x00	Enumerated
+0x6441		ATCMRotarySwitch		ATCM Rotary Switch not fitted	0x01	Enumerated
+0x6443		ATCMAutoTRMdSwitch		Auto Terrain Response Mode selection switch not fitted	0x01	Enumerated
+0x6445		ATCMTA2Switch		Tow Assist 2 feature selection switch not fitted	0x01	Enumerated
+0x6447		ATCMDSCOffSwitch		Dynamic Stability Control Off switch not fitted	0x01	Enumerated
+0x6451		ATCMHDCSwitch		ATCM Hill Descent Control Switch not fitted	0x01	Enumerated
+0x6453		ATCMAirSusSwitches		ATCM Air Suspension Switches not fitted	0x01	Enumerated
+0x6455		ATCMATPCSwitch		ATCM All Terrain Progress Control Switch not fitted	0x01	Enumerated
+0x6457		ATCMLoRangeSwitch		ATCM Lo Range Switch not fitted	0x01	Enumerated
+0x6461		ATCMEVSwitch		ATCM Electric Vehicle Switch not fitted	0x01	Enumerated
+0x6463		ChgPortFlpInhibit		Not Supported	0x00	Enumerated
+0x6465		ClimateZonalControl		Not Supported	0x00	Enumerated
+0x6467		RHSWSBusSelection		Not Supported	0x00	Enumerated
+0x6472		DisplayFrontBlowerSpeed		Not Supported	0x00	Enumerated
+0x6475		Display2ndRowBlowerSpeed		Not Supported	0x00	Enumerated
+0x6477		ELKARE		Not Supported	0x00	Enumerated
+0x6482		EHznLongHznImpl		Not Supported	0x00	Enumerated
+0x6485		SpoilerSpecialFunc		Not Supported	0x00	Enumerated
+0x6487		UWBPEPSENDISONLYUSEVSA		Not Supported	0x00	Enumerated
+0x6522		ESSCalibration		Not Supported	0x00	Enumerated
+0x6527		WakeupShutdownSeqTyp		Not Supported	0x00	Enumerated
+0x6533		SupMainBeamRoutIntensity		Not Supported	0x00	Enumerated
+0x6537		FuelGaugeVariant2		Not Supported	0x00	Enumerated
+0x6542		ExteriorMirrorAutoUnfold		Not Supported	0x00	Enumerated
+0x6547		Unallocated (0x6547)		Not Supported	0x00	Enumerated
+0x6557		AdapDrvBeamSeg		Not Supported	0x00	Enumerated
+0x6563		DeployableSideStepType		Type 2 (360 Hall counts)	0x03	Enumerated
+0x6567		SeatMvmtModuleType		Not Supported	0x00	Enumerated
+0x6571		LKARE		Not Supported	0x00	Enumerated
+0x6573		TJAICARE		Not Supported	0x00	Enumerated
+0x6575		DynBendingLight		Not Supported	0x00	Enumerated
+0x6577		SignPostDimming		Not Supported	0x00	Enumerated
+0x6581		BrakeFluidLvlSource		Not Supported	0x00	Enumerated
+0x6583		PassKneeAirbag		Not Supported	0x00	Enumerated
+0x6585		AdasNCapESS		Not Supported	0x00	Enumerated
+0x6587		AdasNCapLKAUpcomTraff		Not Supported	0x00	Enumerated
+0x6621		AdasLongCRA		Not Supported	0x00	Enumerated
+0x6623		AdasLongRPC		Not Supported	0x00	Enumerated
+0x6625		LeftManoeuvringLgt		不支持	0x00	Enumerated
+0x6627		RghtManoeuvringLgt 		不支持	0x00	Enumerated
+0x6631		AdasNCapJunctionAEB		不支持	0x00	Enumerated
+0x6633		AdasNCapCyclistAEB		不支持	0x00	Enumerated
+0x6635		AdasTJP		不支持	0x00	Enumerated
+0x6637		DSMFitment		不支持	0x00	Enumerated
+0x6641		PSMFitment		不支持	0x00	Enumerated
+0x6643		RLSMFitment		不支持	0x00	Enumerated
+0x6645		RRSMFitment		不支持	0x00	Enumerated
+0x6647		R2SMFitment		不支持	0x00	Enumerated
+0x6651		R3SMFitment		不支持	0x00	Enumerated
+0x6653		自动保持		不支持	0x00	Enumerated
+0x6657		IntMirrorVariant		Not Supported	0x00	Enumerated
+0x6661		ACCLeadCarDistDisp		Not Supported	0x00	Enumerated
+0x6663		ACCStopGapSelect		Not Supported	0x00	Enumerated
+0x6665		ACCAccelProfileSelect		不支持	0x00	Enumerated
+0x6667		加热小腿休息		不支持	0x00	Enumerated
+0x6671		SeatMassHanded		Not Supported	0x00	Enumerated
+0x6677		Unallocated - 2 bits		Not Supported	0x00	Enumerated
+0x6687		Unallocated		Not Supported	0x00	Enumerated
+0x6727		Unallocated		Not Supported	0x00	Enumerated
+0x6737		Unallocated		Not Supported	0x00	Enumerated
+0x6747		Unallocated		Not Supported	0x00	Enumerated
+0x6757		Unallocated		Not Supported	0x00	Enumerated
+0x6767		Unallocated		Not Supported	0x00	Enumerated
+0x6777		Unallocated		Not Supported	0x00	Enumerated
+0x6787		Unallocated		Not Supported	0x00	Enumerated
+0x6827		Unallocated		Not Supported	0x00	Enumerated
+0x6837		Unallocated		Not Supported	0x00	Enumerated
+0x6847		Unallocated		Not Supported	0x00	Enumerated
+0x6857		Unallocated		Not Supported	0x00	Enumerated
+0x6867		Unallocated		Not Supported	0x00	Enumerated
+0x6877		Unallocated		Not Supported	0x00	Enumerated
+0x6887		Unallocated		Not Supported	0x00	Enumerated
+0x6927		Unallocated		Not Supported	0x00	Enumerated
+0x6937		Unallocated		Not Supported	0x00	Enumerated
+0x6947		Unallocated		Not Supported	0x00	Enumerated
+0x6957		Unallocated		Not Supported	0x00	Enumerated
+0x6967		Unallocated		Not Supported	0x00	Enumerated
+0x6977		Unallocated		Not Supported	0x00	Enumerated
+0x6987		Unallocated		Not Supported	0x00	Enumerated
+0x6A27		Unallocated		Not Supported	0x00	Enumerated
+0x6A37		Unallocated		Not Supported	0x00	Enumerated
+0x6A47		Unallocated		Not Supported	0x00	Enumerated
+0x6A57		Unallocated		Not Supported	0x00	Enumerated
+0x6A67		Unallocated		Not Supported	0x00	Enumerated
+0x6A77		Unallocated		Not Supported	0x00	Enumerated
+0x6A87		Unallocated		Not Supported	0x00	Enumerated
+0x6B27		Unallocated		Not Supported	0x00	Enumerated
+0x6B37		Unallocated		Not Supported	0x00	Enumerated
+0x6B47		Unallocated		Not Supported	0x00	Enumerated
+0x6B57		Unallocated		Not Supported	0x00	Enumerated
+0x6B67		Unallocated		Not Supported	0x00	Enumerated
+0x6B77		Unallocated		Not Supported	0x00	Enumerated
+0x6B87		Unallocated		Not Supported	0x00	Enumerated
+0x6C27		Unallocated		Not Supported	0x00	Enumerated
+0x6C37		Unallocated		Not Supported	0x00	Enumerated
+0x6C47		Unallocated		Not Supported	0x00	Enumerated
+0x6C57		Unallocated		Not Supported	0x00	Enumerated
+0x6C67		Unallocated		Not Supported	0x00	Enumerated
+0x6C77		Unallocated		Not Supported	0x00	Enumerated
+0x6C87		Unallocated		Not Supported	0x00	Enumerated
+0x6D27		Unallocated		Not Supported	0x00	Enumerated
+0x6D37		Unallocated		Not Supported	0x00	Enumerated
+0x6D47		Unallocated		Not Supported	0x00	Enumerated
+0x6D57		Unallocated		Not Supported	0x00	Enumerated
+0x6D67		Unallocated		Not Supported	0x00	Enumerated
+0x6D77		Unallocated		Not Supported	0x00	Enumerated
+0x6D87		Unallocated		Not Supported	0x00	Enumerated
+0x6E27		Unallocated		Not Supported	0x00	Enumerated
+0x6E37		Unallocated		Not Supported	0x00	Enumerated
+0x6E47		Unallocated		Not Supported	0x00	Enumerated
+0x6E57		Unallocated		Not Supported	0x00	Enumerated
+0x6E67		Unallocated		Not Supported	0x00	Enumerated
+0x6E77		Unallocated		Not Supported	0x00	Enumerated
+0x6E87		Unallocated		Not Supported	0x00	Enumerated
+0x6F27		Unallocated		Not Supported	0x00	Enumerated
+0x6F37		Unallocated		Not Supported	0x00	Enumerated
+0x6F47		Unallocated		Not Supported	0x00	Enumerated
+0x6F57		Unallocated		Not Supported	0x00	Enumerated
+0x6F67		Unallocated		Not Supported	0x00	Enumerated
+0x6F77		Unallocated		Not Supported	0x00	Enumerated
+0x6F87		Unallocated		Not Supported	0x00	Enumerated
+0x7027		Unallocated		Not Supported	0x00	Enumerated
+0x7037		Unallocated		Not Supported	0x00	Enumerated
+0x7047		Unallocated		Not Supported	0x00	Enumerated
+0x7057		Unallocated		Not Supported	0x00	Enumerated
+0x7067		Unallocated		Not Supported	0x00	Enumerated
+0x7077		Unallocated		Not Supported	0x00	Enumerated
+0x7087		Unallocated		Not Supported	0x00	Enumerated
