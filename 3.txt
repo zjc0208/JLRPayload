@@ -1,0 +1,600 @@
+1	0x0127	车辆类型	L494	0x0C	Enumerated
+2	0x0137	车门	5门	0x02	Enumerated
+3	0x0147	变速箱传动系统	全轮驱动(Without disconnect)	0x02	Enumerated
+4	0x0157	双燃料	非双燃料	0x01	Enumerated
+5	0x0167	发动机类型	AJ126 V6 S/C 3.0L	0x9A	Enumerated
+6	0x0177	燃油类型	汽油	0x01	Enumerated
+7	0x0187	交流发电机	交流发电机180A	0x02	Enumerated
+8	0x0227	驾驶位置	左侧驾驶	0x01	Enumerated
+9	0x0237	变速器	ZF 8 速自动变速箱	0x4A	Enumerated
+10	0x0247	变速器类型	自动变速箱	0x02	Enumerated
+11	0x0257	燃油油箱容积	未定义	0x00	Enumerated
+12	0x0267	报警	周边防盗	0x03	Enumerated
+13	0x0277	座椅按摩	未安装	0x01	Enumerated
+14	0x0287	前照灯类型	自适应前照灯带自动调节 / Button controlled / Mech or no tourist light	0x04	Enumerated
+15	0x0327	对称前照灯	US对称	0x01	Enumerated
+16	0x0337	日间行车灯	标准近光（非 DTRL）	0x02	Enumerated
+17	0x0347	渐暗近光前照灯	未定义	0x00	Enumerated
+18	0x0357	雾灯功能	雾灯未与前照灯联动	0x03	Enumerated
+19	0x0367	后雾灯拖车功能	连接拖车时雾灯关闭，仅拖车雾灯工作	0x02	Enumerated
+20	0x0377	拖车模块	不带拖车模块	0x01	Enumerated
+21	0x0387	无钥匙进入和启动	无钥匙进入和起动	0x02	Enumerated
+22	0x0427	辅助加热器	仅辅助水泵（仅 NAS 市场）	0x06	Enumerated
+23	0x0437	速度控制（ACC）	速度控制	0x02	Enumerated
+24	0x0447	雨量传感器	未定义	0x00	Enumerated
+25	0x0457	前照灯清洗	未定义	0x00	Enumerated
+26	0x0467	动力转向类型	不带外部角度控制的电子液压动力转向，仅适用于 JLR	0x07	Enumerated
+27	0x0477	行程计算机	不带行程计算机	0x01	Enumerated
+28	0x0487	行李箱私人锁定	行李箱私人锁定	0x02	Enumerated
+29	0x0527	后车门儿童锁	后车门电动儿童锁	0x03	Enumerated
+30	0x0537	解锁设置	两步解锁打开	0x02	Enumerated
+31	0x0547	ACKNOWL信号锁定/警报	未定义	0x00	Enumerated
+32	0x0557	车速联动自动锁定	未定义	0x00	Enumerated
+33	0x0567	水平传感器 - 若发生警报	未安装	0x01	Enumerated
+34	0x0577	钥匙防“锁入”2 车外	尾门关闭之前/之后车外搜索钥匙,上述选项 2 和 3	0x04	Enumerated
+35	0x0587	钥匙防“锁入”车内	车内扫描车厢内任意一把钥匙以防止加装钥匙和任意一把钥匙之间发生搜索冲突	0x03	Enumerated
+36	0x0627	紧急警报	未定义	0x00	Enumerated
+37	0x0637	盲点监控系统	未安装	0x01	Enumerated
+38	0x0647	道路摩擦检测	未安装	0x01	Enumerated
+39	0x0657	PTC 加热器（辅助空气加热器	未安装	0x01	Enumerated
+40	0x0667	后蓄电池	未定义	0x00	Enumerated
+41	0x0677	空调过滤器	未定义	0x00	Enumerated
+42	0x0687	气候控制单元	双区ATC	0x09	Enumerated
+43	0x0727	速度限制	未定义	0x00	Enumerated
+44	0x0737	速度警告装置	未定义	0x00	Enumerated
+45	0x0747	组合仪表校准	未定义	0x00	Enumerated
+46	0x0757	前轮制动器类型	未定义	0x00	Enumerated
+47	0x0767	车内运动传感器	未安装	0x01	Enumerated
+48	0x0777	心跳探测器	未定义	0x00	Enumerated
+49	0x0787	后排加热座椅	仅后面第二排座椅	0x02	Enumerated
+50	0x0827	电话	不带电话	0x01	Enumerated
+51	0x0837	轮胎滚动周长	滚动周长2395mm	0xF4	Enumerated
+52	0x0847	保养周期	未定义	0x00	Enumerated
+53	0x0857	座椅加热校准	低温34C高温40C	0x12	Enumerated
+54	0x0867	前排加热座椅	前排加热和制冷座椅，沃尔沃，3模式分区	0x04	Enumerated
+55	0x0877	前排座椅通风	未定义	0x00	Enumerated
+56	0x0887	驻车加热器开始时间	未安装	0x01	Enumerated
+57	0x0927	驻车制动器类型	电子驻车制动器	0x02	Enumerated
+58	0x0937	加热式挡风玻璃	无加热式挡风玻璃/刮水器停驻位置/加热式喷嘴	0x01	Enumerated
+59	0x0947	驻车辅助	PDC（前后）	0x03	Enumerated
+60	0x0957	陡坡缓降控制	未定义	0x00	Enumerated
+61	0x0967	安全带提醒	未定义	0x00	Enumerated
+62	0x0977	品牌	Land Rover（路虎）	0x03	Enumerated
+63	0x0987	遥控频率	频率315MHz	0x01	Enumerated
+64	0x0A27	后空调	带存储功能的后部控制箱（无后面部通风口）	0x09	Enumerated
+65	0x0A37	玻璃类型	红外保护玻璃挡风玻璃 	0x02	Enumerated
+66	0x0A47	车顶类型	全景式玻璃车顶	0x02	Enumerated
+67	0x0A57	辛烷值	未定义	0x00	Enumerated
+68	0x0A67	排放标准	未定义	0x00	Enumerated
+69	0x0A77	车身风格	越野车	0x35	Enumerated
+70	0x0A87	轮胎尺寸	X351: 265/35 ZR20  295/30 ZR20 D7u: 20(255/55R20)	0x9F	Enumerated
+71	0x0B27	主减速比	3.73	0x20	Enumerated
+72	0x0B37	导航/旅行辅助	未定义	0x00	Enumerated
+73	0x0B47	扬声器数量	较少扬声器	0x07	Enumerated
+74	0x0B57	悬架	四角空气悬架	0x07	Enumerated
+75	0x0B67	车辆动态集成控制	带翻滚稳定性控制的ESP	0x08	Enumerated
+76	0x0B77	拖杆	不带拖车牵引装置	0x01	Enumerated
+77	0x0B87	PDCS 扬声器	未定义	0x00	Enumerated
+78	0x0C27	驱动桥	未定义	0x00	Enumerated
+79	0x0C37	后轮类型	单后轮	0x01	Enumerated
+80	0x0C47	轴距系列和加长选项	未定义	0x00	Enumerated
+81	0x0C57	主动悬架	未定义	0x00	Enumerated
+82	0x0C67	转向机	未定义	0x00	Enumerated
+83	0x0C77	中控锁类型	未安装防盗锁	0x01	Enumerated
+84	0x0C87	侧窗	钢化侧窗	0x01	Enumerated
+85	0x0D27	车外后视镜	已安装折叠后视镜	0x02	Enumerated
+86	0x0D37	记忆功能	已安装	0x02	Enumerated
+87	0x0D47	水坑灯，车外后视镜	已安装	0x02	Enumerated
+88	0x0D57	自动车灯	未定义	0x00	Enumerated
+89	0x0D67	乘客侧气囊	未定义	0x00	Enumerated
+90	0x0D77	乘客气囊切断开关	未安装	0x01	Enumerated
+91	0x0D87	驾驶员侧气囊（胸部）	未定义	0x00	Enumerated
+92	0x0E27	乘客侧气囊（胸部）	未定义	0x00	Enumerated
+93	0x0E37	语言	英语（美式）指示	0x11	Enumerated
+94	0x0E47	电子加热器	未定义	0x00	Enumerated
+95	0x0E57	双门跑车通风装置	未定义	0x00	Enumerated
+96	0x0E67	制动碰撞缓冲（ACC）	未安装	0x01	Enumerated
+97	0x0E77	前部碰撞警告	未安装	0x01	Enumerated
+98	0x0E87	车道偏离警告	已安装启用菜单的 LDW  未安装TSR	0x31	Enumerated
+99	0x0F27	驻车辅助摄像机	已安装CAN FMVSS111 驻车辅助摄像机	0x06	Enumerated
+100	0x0F37	行李箱12V电源插座	未定义	0x00	Enumerated
+101	0x0F47	胎压模式系统	带WBL的TPMS，DLS（默认 Heavy）WT无HSPA US	0xB0	Enumerated
+102	0x0F57	机油油位传感器	未定义	0x00	Enumerated
+103	0x0F67	防侧翻稳定性控制	未定义	0x00	Enumerated
+104	0x0F77	后增压器的电子真空泵	未定义	0x00	Enumerated
+105	0x0F87	后轮制动器类型	未定义	0x00	Enumerated
+106	0x1027	紧急制动	不带紧急制动灯	0x01	Enumerated
+107	0x1037	辅助车灯	未定义	0x00	Enumerated
+108	0x1047	车顶升降口	车顶升降口	0x01	Enumerated
+109	0x1057	前/后电动车窗	DCU 电动控制前 后车窗	0x02	Enumerated
+110	0x1067	 无线电频带和频率步进	无线电频带和频率步进，适用于欧美国车型	0x02	Enumerated
+111	0x1077	内饰等级	未定义	0x00	Enumerated
+112	0x1087	车内娱乐设施	低水平磁带 + AM/FM 收音机	0x02	Enumerated
+113	0x1127	 语音控制	先进的语音识别	0x03	Enumerated
+114	0x1137	车速偏离	未定义	0x00	Enumerated
+115	0x1147	车速锁定	未定义	0x00	Enumerated
+116	0x1157	仪表等级	未定义	0x00	Enumerated
+117	0x1167	 车速表	未定义	0x00	Enumerated
+118	0x1177	行车纪录器	未定义	0x00	Enumerated
+119	0x1187	收音机，放大器和扬声器系统	音频 '中等性能' (MP)	0x11	Enumerated
+120	0x1227	仪表板中央扬声器	不带中央扬声器	0x01	Enumerated
+121	0x1237	重低音喇叭	不带重低音喇叭	0x01	Enumerated
+122	0x1247	后部耳机插孔	不带耳机插孔	0x01	Enumerated
+123	0x1257	辅助音频输入	辅助音频输入	0x02	Enumerated
+124	0x1267	音频播放机	未定义	0x00	Enumerated
+125	0x1277	数字无线电接收器	SiriusXM Sat 无线电	0x05	Enumerated
+126	0x1287	 扩音器	扩音器（仅驾驶员）	0x02	Enumerated
+127	0x1327	导航系统	导航系统，适用于 NGI 车型	0x22	Enumerated
+128	0x1337	驻车制动开关	未定义	0x00	Enumerated
+129	0x1347	地形反馈设备	带地形反馈	0x02	Enumerated
+130	0x1357	PAM 扫描模式	模式 1：核心	0x01	Enumerated
+131	0x1367	前排乘客座椅安全的提醒器	未定义	0x00	Enumerated
+132	0x1377	驾驶员膝部支撑	未定义	0x00	Enumerated
+133	0x1387	侧帘式空气囊	未定义	0x00	Enumerated
+134	0x1427	驾驶员侧空气囊	未定义	0x00	Enumerated
+135	0x1437	前部主动座椅安全带卷收器预紧器	被动座椅安全带	0x03	Enumerated
+136	0x1447	座椅安全带警告	不支持	0x00	Enumerated
+137	0x1457	左侧负载车门	不支持	0x00	Enumerated
+138	0x1467	右侧负载车门	不支持	0x00	Enumerated
+139	0x1477	后门开口	不支持	0x00	Enumerated
+140	0x1487	PDC 自动激活菜单	带 PDC 自动激活菜单	0x02	Enumerated
+141	0x1527	后玻璃	后加热式玻璃	0x03	Enumerated
+142	0x1537	车顶高度	不支持	0x00	Enumerated
+143	0x1547	后清洗/刮水	间歇式后清洗/刮水	0x02	Enumerated
+144	0x1557	电动/加热后视镜	长臂电动/加热式后视镜	0x04	Enumerated
+145	0x1567	自动再锁定	不支持	0x00	Enumerated
+146	0x1577	分区反向车门再锁定	不支持	0x00	Enumerated
+147	0x1587	可见误锁反馈	不支持	0x00	Enumerated
+148	0x1627	可配置解锁	不支持	0x00	Enumerated
+149	0x1637	延时照明	不支持	0x00	Enumerated
+150	0x1647	空气质量传感器	不带空气质量传感器	0x01	Enumerated
+151	0x1657	排放、蒸发系统	不支持	0x00	Enumerated
+152	0x1667	后部折叠头枕	不支持	0x00	Enumerated
+153	0x1677	外部警报装置电源	不支持	0x00	Enumerated
+154	0x1687	附件 USB 装置	IAM 带 USB 和 iPod 功能	0x07	Enumerated
+155	0x1727	交通信息	不支持	0x00	Enumerated
+156	0x1737	空调压缩机类型	可变排量外部控制有离合器 (ECVDC)	0x04	Enumerated
+157	0x1747	蓝牙免提	蓝牙免提和音频流	0x04	Enumerated
+158	0x1757	乘员重量传感器 (OWS)	带乘员重量传感器	0x02	Enumerated
+159	0x1767	后排安全带检测	不支持	0x00	Enumerated
+160	0x1777	PYRO 技术转向柱	不支持	0x00	Enumerated
+161	0x1787	前部自适应负载限制器	不支持	0x00	Enumerated
+162	0x1827	座椅轨道传感器	不支持	0x00	Enumerated
+163	0x1837	前部腰式安全带预紧器	不支持	0x00	Enumerated
+164	0x1847	前部碰撞感知系统	不支持	0x00	Enumerated
+165	0x1857	前部自适应通风装置	不支持	0x00	Enumerated
+166	0x1867	前车门警告灯	无前门警告灯	0x01	Enumerated
+167	0x1877	失速提示	不带失速提示	0x01	Enumerated
+168	0x1887	无法检测到钥匙提示	无法检测到钥匙提示	0x02	Enumerated
+169	0x1927	下车解锁	下车解锁	0x02	Enumerated
+170	0x1937	蓄电池节电时间	不支持	0x00	Enumerated
+171	0x1947	加热式方向盘	带加热式方向盘	0x02	Enumerated
+172	0x1957	前中心显示器	带显示屏 - 触摸屏	0x02	Enumerated
+173	0x1967	后排娱乐系统	未装配后排娱乐系统	0x01	Enumerated
+174	0x1977	电视调谐器	不带 TV 调谐器	0x01	Enumerated
+175	0x1987	语音控制语言	美国英语	0x01	Enumerated
+176	0x1A27	车门把手技术	完全触摸传感器（锁定和解锁）	0x05	Enumerated
+177	0x1A37	自动开启尾灯/尾门	带软关闭的电动尾门打开/关闭 - 全系统	0x03	Enumerated
+178	0x1A47	换档指示器	不支持	0x00	Enumerated
+179	0x1A57	空档自动控制	不支持	0x00	Enumerated
+180	0x1A67	转速控制器	不支持	0x00	Enumerated
+181	0x1A77	湿度传感器	湿度传感器	0x02	Enumerated
+182	0x1A87	哮喘和过敏	不支持	0x00	Enumerated
+183	0x1B27	发动机冷却风扇性能	仅粘性风扇	0x06	Enumerated
+184	0x1B37	整体打开/关闭	不支持	0x00	Enumerated
+185	0x1B47	里程计算混合装置	驾驶员无法选择 MPL 装置	0x01	Enumerated
+186	0x1B57	遥控车门控制音道类型	遥控车门多音道	0x02	Enumerated
+187	0x1B67	方向盘音响按钮	方向盘音响按钮	0x02	Enumerated
+188	0x1B77	免提电话静音功能	不带电话静音功能	0x01	Enumerated
+189	0x1B87	换至驻车档提示	启用换至驻车档施加，启用换出驻车档释放	0x04	Enumerated
+190	0x1C27	后车门遮阳帘	不带后车门遮阳帘	0x01	Enumerated
+191	0x1C37	驾驶员损伤监视器	不带驾驶员损伤监视器	0x01	Enumerated
+192	0x1C47	城市安全系统	不支持	0x00	Enumerated
+193	0x1C57	PSS 预警策略	双级别策略	0x02	Enumerated
+194	0x1C67	后视镜安装转向信号	后视镜安装转向信号	0x02	Enumerated
+195	0x1C77	混合行程计算机功率比	功率比不适用	0x00	Enumerated
+196	0x1C87	非接触式尾门	未定义	0x00	Enumerated
+197	0x1D27	温度分区用户分布	2 温度，1 分布，1 鼓风机	0x02	Enumerated
+198	0x1D37	生态信息系统	普通车辆 - 英制加仑 - 5 座	0x15	Enumerated
+199	0x1D47	夜视仪	未配置	0x00	Enumerated
+200	0x1D57	车载通信 1	装配车载通信 TCU	0x1F	Enumerated
+201	0x1D67	倒档声	无倒档声	0x01	Enumerated
+202	0x1D77	阳光传感器	前 - 双区：后 - 未装配	0x03	Enumerated
+203	0x1D87	车载通信保护	车载通信保护	0x03	Enumerated
+204	0x1E27	伸缩式踏脚板	不支持	0x00	Enumerated
+205	0x1E37	赛车子品牌	主流车辆	0x01	Enumerated
+206	0x1E47	驾驶员工作负载管理器	禁用	0x01	Enumerated
+207	0x1E57	前摄像机	单前摄像机	0x02	Enumerated
+208	0x1E67	转向柱锁	不支持	0x00	Enumerated
+209	0x1E77	涉水感应系统	(0001) 未装配涉水感应系统	0x01	Enumerated
+210	0x1E87	蓄电池	T7 80Ah 700 冷起动电流	0x03	Enumerated
+211	0x1F27	蓄电池监视传感器	蓄电池监视传感器	0x02	Enumerated
+212	0x1F37	DVD 适用区域	DVD R1 USA/CDN	0x02	Enumerated
+213	0x1F47	Eco Data (驾驶员信息显示屏)	功能启用（显示信息级别3）	0x04	Enumerated
+214	0x1F57	集成控制面板	加长 ICP	0x03	Enumerated
+215	0x1F67	信息娱乐信息防盗保护	Not supported	0x00	Enumerated
+216	0x1F77	静态继电器盒	启用 BCM 闭锁功能	0x03	Enumerated
+217	0x1F87	图片支持	不带图片支持	0x01	Enumerated
+218	0x2027	IGOR 系统描述	带静音逻辑的 2 继电器	0x01	Enumerated
+219	0x2037	区域语言	Not supported	0x00	Enumerated
+220	0x2047	侧摄像机	两侧摄像机，不带日语功能	0x04	Enumerated
+221	0x2057	拖车轮胎压力监视系统	未装配拖车 TPMS	0x01	Enumerated
+222	0x2067	启停系统	启停系统	0x02	Enumerated
+223	0x2077	抬头显示屏	未装配 HUD	0x01	Enumerated
+224	0x2087	可调速度限制器	装配 ASL	0x02	Enumerated
+225	0x2127	Advanced Chauffeur Function	未装配 AFC	0x01	Enumerated
+226	0x2137	智能紧急制动	不带 LSIEB	0x01	Enumerated
+227	0x2147	4x4 信息显示屏y	启用	0x02	Enumerated
+228	0x2157	可视听警报模式	启用（使用可用回声器）	0x02	Enumerated
+229	0x2167	车型年款	2017	0x1D	Enumerated
+230	0x2177	碰撞事件数据记录	如果使用，显示未定义错误状态	0x00	Enumerated
+231	0x2187	锁块类型	未闭锁	0x02	Enumerated
+232	0x2227	辅助水泵	未装配辅助水泵	0x01	Enumerated
+233	0x2237	零件号表格	如果使用，显示未定义错误状态	0x00	Enumerated
+234	0x2247	对话辅助	不带对话辅助	0x01	Enumerated
+235	0x2257	导航 ECO 路径 - 城市数据	如果使用，显示未定义错误状态	0x00	Enumerated
+236	0x2267	导航 ECO 路径 - 郊外数据	如果使用，显示未定义错误状态d	0x00	Enumerated
+237	0x2277	分动器	单速不带控制器	0x01	Enumerated
+238	0x2287	主动侧倾控制	未装配 ARC	0x01	Enumerated
+239	0x2327	后差速器	未装配电子差速器	0x01	Enumerated
+240	0x2337	氛围灯	装配三色，禁用自动按钮	0x04	Enumerated
+241	0x2347	导航车速限制	Undefined error condition if used	0x00	Enumerated
+242	0x2357	被动锁定错误声调	Chirps关闭	0x01	Enumerated
+243	0x2367	手册	Undefined error condition if used	0x00	Enumerated
+244	0x2377	连接并查看	CE App 投影功能 - mySPIN Fitted Only	0x02	Enumerated
+245	0x2387	动态 -i	未装配动态 -i	0x01	Enumerated
+246	0x2427	AHB 系统	禁用 IPC/DI 中的 AHB 菜单，测试菜单	0x03	Enumerated
+247	0x2437	越野导航	Undefined error condition if used	0x00	Enumerated
+248	0x2447	音频品牌	无音频品牌	0x01	Enumerated
+249	0x2457	视频显示限制	档位 = 驻车档时允许视频	0x05	Enumerated
+250	0x2467	乘客座椅模块	Undefined error condition if used	0x00	Enumerated
+251	0x2477	车载通信 2	IInControl 保护和 InControl 连接程序（车载通信和 NGI 连通性） TCU2 或 TCU3（H）	0x3C	Enumerated
+252	0x2487	发电机：曲柄转动比	3:01	0x02	Enumerated
+253	0x2527	车辆类型	L494	0x07	Enumerated
+254	0x2537	品牌	Land Rover	0x01	Enumerated
+255	0x2547	车型年款T5	2017	0x23	Enumerated
+256	0x2557	VIN1	S	0x53	ASCII
+257	0x2567	VIN2	A	0x41	ASCII
+258	0x2577	VIN3	L	0x4C	ASCII
+259	0x2587	VIN4	W	0x57	ASCII
+260	0x2627	VIN5	R	0x52	ASCII
+261	0x2637	VIN6	2	0x32	ASCII
+262	0x2647	VIN7	F	0x46	ASCII
+263	0x2657	VIN8	V	0x56	ASCII
+264	0x2667	VIN9	0	0x30	ASCII
+265	0x2677	VIN10	H	0x48	ASCII
+266	0x2687	VIN11	A	0x41	ASCII
+267	0x2727	VIN12	6	0x36	ASCII
+268	0x2737	VIN13	8	0x38	ASCII
+269	0x2747	VIN14	5	0x35	ASCII
+270	0x2757	VIN15	1	0x31	ASCII
+271	0x2767	VIN16	0	0x30	ASCII
+272	0x2777	VIN17	0	0x30	ASCII
+273	0x2787	变速箱类型	装配自动版	0x02	Enumerated
+274	0x2827	轮胎动态滚动半径 MSB	Unknown (1)	0x01	Raw
+275	0x2837	轮胎动态滚动半径 LSB	Unknown (127)	0x7F	Raw
+276	0x2840	制动系统类型	已安装	0x03	Enumerated
+277	0x2841	制动系统类型	已安装	0x03	Enumerated
+278	0x2842	制动系统类型	未安装	0x03	Enumerated
+279	0x2843	制动系统类型	无方向型	0x03	Enumerated
+280	0x2846	轮胎类型	未定义	0x03	Enumerated
+281	0x2847	刹车片类型	非 NAO	0x03	Enumerated
+282	0x2853	前刹车盘尺寸	19 inch	0x06	Enumerated
+283	0x2857	后刹车盘尺寸	Undefined	0x06	Enumerated
+284	0x2867	燃油类型	汽油	0x01	Enumerated
+285	0x2872	发动机类型	机械增压	0x83	Enumerated
+286	0x2877	发动机类型	AJ126 3.0 litre	0x83	Enumerated
+287	0x2887	轴距 MSB	Unknown (11)	0x0B	Raw
+288	0x2927	轴距 LSB	Unknown (106)	0x6A	Raw
+289	0x2937	主减速比 MSB	Unknown (10)	0x0A	Raw
+290	0x2947	主减速比 LSB	Unknown (170)	0xAA	Raw
+291	0x2950	车辆状态(电瓶传送模式)	禁用	0x00	Enumerated
+292	0x2951	Vehicle Status	禁用	0x00	Enumerated
+293	0x2952	车辆状态（锁定）	禁用	0x00	Enumerated
+294	0x2953	工厂模式激活	保留调整1	0x00	Enumerated
+295	0x2956	机油油位动态警告（也被称为低临界）	未定义 / 未编程	0x00	Enumerated
+296	0x2957	可展开的扰流器 NAS 清洁模式	ROW (Spolier manually requested at all road speeds)	0x00	Enumerated
+297	0x2960	拖车杆	未安装	0x0E	Enumerated
+298	0x2961	Towing	启用	0x0E	Enumerated
+299	0x2963	发动机冷却风扇	硅油风扇已安装	0x0E	Enumerated
+300	0x2967	底盘描述	用于车辆无发动机子变量的地方	0x0E	Enumerated
+301	0x2972	动力传动系部件 1	4WD/AWD without disconnect	0x42	Enumerated
+302	0x2973	动力传动系部件 1	未安装	0x42	Enumerated
+303	0x2974	动力传动系部件 1	未安装	0x42	Enumerated
+304	0x2977	动力传动系部件 1	普通巡航已安装	0x42	Enumerated
+305	0x2980	底盘部件1	未安装	0x2C	Enumerated
+306	0x2981	底盘部件1	未安装	0x2C	Enumerated
+307	0x2982	底盘部件1	已安装	0x2C	Enumerated
+308	0x2983	底盘部件1	已安装	0x2C	Enumerated
+309	0x2984	底盘部件1	未安装	0x2C	Enumerated
+310	0x2985	底盘部件1	已安装	0x2C	Enumerated
+311	0x2986	底盘部件1	正常	0x2C	Enumerated
+312	0x2987	底盘部件1	未安装	0x2C	Enumerated
+313	0x2A20	TO/JDO ECU	禁用	0x84	Enumerated
+314	0x2A21	TO/JDO ECU	未安装	0x84	Enumerated
+315	0x2A22	TO/JDO ECU	是	0x84	Enumerated
+316	0x2A23	TO/JDO ECU	否	0x84	Enumerated
+317	0x2A24	TO/JDO ECU	否	0x84	Enumerated
+318	0x2A25	TO/JDO ECU	未安装	0x84	Enumerated
+319	0x2A26	TO/JDO ECU	转向器比率#1	0x84	Enumerated
+320	0x2A27	TO/JDO ECU	已安装	0x84	Enumerated
+321	0x2A32	轮胎压力监测系统	未定义	0x00	Enumerated
+322	0x2A33	轮胎压力监测系统	ROW低负载	0x00	Enumerated
+323	0x2A34	轮胎压力监测系统	未安装	0x00	Enumerated
+324	0x2A35	轮胎压力监测系统	禁用	0x00	Enumerated
+325	0x2A36	轮胎压力监测系统	315Mhz	0x00	Enumerated
+326	0x2A37	轮胎压力监测系统	禁用	0x00	Enumerated
+327	0x2A47	驱动类型	LHD	0x01	Enumerated
+328	0x2A50	气候空气部件1	未安装	0x20	Enumerated
+329	0x2A51	气候控制部件1	未安装	0x20	Enumerated
+330	0x2A52	气候控制部件1	未安装	0x20	Enumerated
+331	0x2A53	气候控制部件1	未安装	0x20	Enumerated
+332	0x2A54	气候控制部件1	未安装	0x20	Enumerated
+333	0x2A55	气候控制部件1	已安装	0x20	Enumerated
+334	0x2A56	气候控制部件1	未安装	0x20	Enumerated
+335	0x2A57	气候控制部件1	未安装	0x20	Enumerated
+336	0x2A62	气候控制部件	未定义	0x00	Enumerated
+337	0x2A63	气候控制部件	未安装	0x00	Enumerated
+338	0x2A67	气候控制部件	未定义	0x00	Enumerated
+339	0x2A70	EPB ECU	不激活	0x38	Enumerated
+340	0x2A71	EPB ECU	不激活	0x38	Enumerated
+341	0x2A72	EPB ECU	不激活	0x38	Enumerated
+342	0x2A73	EPB ECU	激活	0x38	Enumerated
+343	0x2A74	EPB ECU	已安装	0x38	Enumerated
+344	0x2A75	EPB ECU	激活	0x38	Enumerated
+345	0x2A76	EPB ECU	不激活	0x38	Enumerated
+346	0x2A77	EPB ECU	NA	0x38	Enumerated
+347	0x2A83	PDC	八通道已安装	0x02	Enumerated
+348	0x2A86	保险杠类型	未定义	0x02	Enumerated
+349	0x2A87	ECO模式按钮装置(JDC)	未安装	0x02	Enumerated
+350	0x2B20	个性化模式	已安装	0xC9	Enumerated
+351	0x2B21	个性化模式	未安装	0xC9	Enumerated
+352	0x2B23	个性化模式	驾驶员	0xC9	Enumerated
+353	0x2B24	动力传动系统部件3	未安装	0xC9	Enumerated
+354	0x2B25	动力传动系统部件3	禁用	0xC9	Enumerated
+355	0x2B26	动力传动系统3	缺陷驾驶	0xC9	Enumerated
+356	0x2B27	动力传动系统3	已安装	0xC9	Enumerated
+357	0x2B30	刮水器1	是	0x7B	Enumerated
+358	0x2B31	刮水器1	已安装	0x7B	Enumerated
+359	0x2B32	刮水器1	否	0x7B	Enumerated
+360	0x2B33	刮水器1	是	0x7B	Enumerated
+361	0x2B34	刮水器1	激活	0x7B	Enumerated
+362	0x2B35	刮水器1	已安装	0x7B	Enumerated
+363	0x2B36	刮水器1	激活	0x7B	Enumerated
+364	0x2B37	刮水器1	禁用	0x7B	Enumerated
+365	0x2B40	外部灯光6	启用	0xB1	Enumerated
+366	0x2B43	外部灯光6	NAS市场	0xB1	Enumerated
+367	0x2B44	外部灯光6	启用	0xB1	Enumerated
+368	0x2B45	外部灯光6	启用	0xB1	Enumerated
+369	0x2B46	外部灯光6	BCM通过LIN检测故障	0xB1	Enumerated
+370	0x2B47	外部灯光6	限制	0xB1	Enumerated
+371	0x2B57	外部灯光2	35	0x23	Decimal
+372	0x2B60	外部灯光3	禁用	0x45	Enumerated
+373	0x2B61	外部灯光3	不激活	0x45	Enumerated
+374	0x2B62	外部灯光3	激活	0x45	Enumerated
+375	0x2B63	外部灯光3	禁用 	0x45	Enumerated
+376	0x2B64	外部灯光3	禁用	0x45	Enumerated
+377	0x2B65	外部灯光3	禁用	0x45	Enumerated
+378	0x2B66	外部灯光3	启用	0x45	Enumerated
+379	0x2B67	外部灯光3	禁用	0x45	Enumerated
+380	0x2B70	内部灯光1	启用	0x49	Enumerated
+381	0x2B71	内部灯光1	否	0x49	Enumerated
+382	0x2B72	内部灯光1	未安装	0x49	Enumerated
+383	0x2B73	内部灯光1	启用	0x49	Enumerated
+384	0x2B74	内部灯光1	未安装	0x49	Enumerated
+385	0x2B75	内部灯光1	未安装	0x49	Enumerated
+386	0x2B76	内部灯光1	启用	0x49	Enumerated
+387	0x2B77	内部灯光1	模式1	0x49	Enumerated
+388	0x2B87	内部灯光 2	60	0x3C	Decimal
+389	0x2C20	警报	已安装	0x31	Enumerated
+390	0x2C21	报警	未安装	0x31	Enumerated
+391	0x2C22	警报	未安装	0x31	Enumerated
+392	0x2C23	警报	未安装	0x31	Enumerated
+393	0x2C24	警报	启用	0x31	Enumerated
+394	0x2C25	警报	启用	0x31	Enumerated
+395	0x2C26	警报	禁用	0x31	Enumerated
+396	0x2C27	警报	禁用	0x31	Enumerated
+397	0x2C30	CDL	禁用	0xE2	Enumerated
+398	0x2C31	CDL	启用	0xE2	Enumerated
+399	0x2C32	CDL	未安装	0xE2	Enumerated
+400	0x2C33	CDL	禁用	0xE2	Enumerated
+401	0x2C34	CDL	禁用	0xE2	Enumerated
+402	0x2C35	CDL	启用	0xE2	Enumerated
+403	0x2C36	CDL	启用	0xE2	Enumerated
+404	0x2C37	CDL	启用	0xE2	Enumerated
+405	0x2C40	车身形式	单件	0x52	Enumerated
+406	0x2C43	车身形式	5座形式(2 row)	0x52	Enumerated
+407	0x2C45	车身形式	固定式顶棚结构	0x52	Enumerated
+408	0x2C47	车身形式	未安装防弹的车辆	0x52	Enumerated
+409	0x2C50	车身控制	未安装	0x0E	Enumerated
+410	0x2C51	车身控制	已安装	0x0E	Enumerated
+411	0x2C52	车身控制	已安装	0x0E	Enumerated
+412	0x2C53	车身控制	已安装	0x0E	Enumerated
+413	0x2C54	车身控制	禁用	0x0E	Enumerated
+414	0x2C55	车身控制	未安装	0x0E	Enumerated
+415	0x2C56	车身控制	仅上部	0x0E	Enumerated
+416	0x2C57	车身控制	未安装	0x0E	Enumerated
+417	0x2C60	记忆ECU	启用	0x09	Enumerated
+418	0x2C61	记忆ECU	禁用	0x09	Enumerated
+419	0x2C62	记忆ECU	禁用	0x09	Enumerated
+420	0x2C63	记忆ECU	已安装	0x09	Enumerated
+421	0x2C64	记忆ECU	禁用	0x09	Enumerated
+422	0x2C65	记忆ECU	禁用	0x09	Enumerated
+423	0x2C66	记忆ECU	禁用	0x09	Enumerated
+424	0x2C67	记忆ECU	禁用	0x09	Enumerated
+425	0x2C70	Sun Roof ECU	启用	0x17	Enumerated
+426	0x2C71	Sun Roof ECU	已安装	0x17	Enumerated
+427	0x2C73	Sun Roof ECU	系统未安装	0x17	Enumerated
+428	0x2C77	Sun Roof ECU	供电模式01-英国	0x17	Enumerated
+429	0x2C87	IHU1	未定义	0x00	Enumerated
+430	0x2D20	IHU2	未安装	0x00	Enumerated
+431	0x2D21	IHU2	未安装	0x00	Enumerated
+432	0x2D22	IHU2	已安装	0x00	Enumerated
+433	0x2D23	IHU2	否	0x00	Enumerated
+434	0x2D24	IHU2	未安装	0x00	Enumerated
+435	0x2D25	IHU2	未安装	0x00	Enumerated
+436	0x2D26	IHU2	未安装	0x00	Enumerated
+437	0x2D27	IHU2	未安装	0x00	Enumerated
+438	0x2D37	IHU3/IAM	未定义	0x00	Enumerated
+439	0x2D47	SWC	未定义	0x00	Enumerated
+440	0x2D57	CD	未定义	0x00	Enumerated
+441	0x2D67	放大器类型	未定义	0x00	Enumerated
+442	0x2D77	低音扬声器	未定义	0x00	Enumerated
+443	0x2D83	耳机插座	未定义	0x00	Enumerated
+444	0x2D84	耳机插座	未安装	0x00	Enumerated
+445	0x2D85	耳机插座	未安装	0x00	Enumerated
+446	0x2D86	耳机插座	未安装	0x00	Enumerated
+447	0x2D87	耳机插座	未安装	0x00	Enumerated
+448	0x2E27	HLDF	未定义	0x00	Enumerated
+449	0x2E31	MMM1	未定义	0x00	Enumerated
+450	0x2E33	MMM1	未定义	0x00	Enumerated
+451	0x2E35	MMM1	未定义	0x00	Enumerated
+452	0x2E37	MMM1	未定义	0x00	Enumerated
+453	0x2E43	MMM2	Undefined	0x00	Enumerated
+454	0x2E47	MMM2	Undefined	0x00	Enumerated
+455	0x2E50	MMM3	启用	0x00	Enumerated
+456	0x2E51	MMM3	行车功能是启用	0x00	Enumerated
+457	0x2E56	MMM3	保留	0x00	Enumerated
+458	0x2E57	MMM3	电装模式	0x00	Enumerated
+459	0x2E67	交通消息接收器	未定义	0x00	Enumerated
+460	0x2E77	VICS	未定义	0x00	Enumerated
+461	0x2E83	RSE1	未定义	0x00	Enumerated
+462	0x2E87	RSE1	未定义	0x00	Enumerated
+463	0x2F27	RSE2	未定义	0x00	Enumerated
+464	0x2F30	RSE3	未安装	0x00	Enumerated
+465	0x2F31	RSE3	未安装	0x00	Enumerated
+466	0x2F32	RSE3	未安装	0x00	Enumerated
+467	0x2F33	RSE3	未安装	0x00	Enumerated
+468	0x2F34	RSE3	未安装	0x00	Enumerated
+469	0x2F35	RSE3	已安装	0x00	Enumerated
+470	0x2F36	RSE3	条件1	0x00	Enumerated
+471	0x2F37	RSE3	否	0x00	Enumerated
+472	0x2F47	AV1	未定义	0x00	Enumerated
+473	0x2F50	AV2	禁用	0x00	Enumerated
+474	0x2F51	AV2	禁用	0x00	Enumerated
+475	0x2F52	AV2	禁用	0x00	Enumerated
+476	0x2F53	AV2	禁用	0x00	Enumerated
+477	0x2F54	AV2	禁用	0x00	Enumerated
+478	0x2F55	AV2	禁用	0x00	Enumerated
+479	0x2F56	AV2	禁用	0x00	Enumerated
+480	0x2F57	AV2	否	0x00	Enumerated
+481	0x2F63	TV	未定义	0x00	Enumerated
+482	0x2F67	TV	未定义	0x00	Enumerated
+483	0x2F71	SDARS	未定义	0x00	Enumerated
+484	0x2F72	SDARS	否	0x00	Enumerated
+485	0x2F73	SDARS - Undefined	不支持	0x00	Enumerated
+486	0x2F77	SDARS	未定义	0x00	Enumerated
+487	0x2F80	DAB	未安装	0x00	Enumerated
+488	0x2F83	DAB	Unknown (0)	0x00	Raw
+489	0x2F87	DAB	保留	0x00	Enumerated
+490	0x3020	配套1	未安装	0x00	Enumerated
+491	0x3021	配套1	未安装	0x00	Enumerated
+492	0x3022	配套1	未安装	0x00	Enumerated
+493	0x3023	配套1	未安装	0x00	Enumerated
+494	0x3024	配套1	未安装	0x00	Enumerated
+495	0x3025	配套1	不激活	0x00	Enumerated
+496	0x3026	配套1	已安装	0x00	Enumerated
+497	0x3027	配套1	否	0x00	Enumerated
+498	0x3037	配套2	未定义	0x00	Enumerated
+499	0x3040	驻车摄像头	未安装	0x00	Enumerated
+500	0x3047	驻车摄像头	Unknown (0)	0x00	Raw
+501	0x3057	GPSReceiver	未定义	0x00	Enumerated
+502	0x3067	MD	未定义	0x00	Enumerated
+503	0x3077	语音控制	未定义	0x00	Enumerated
+504	0x3087	语言	English	0x04	Enumerated
+505	0x3127	内部通讯	未定义	0x00	Enumerated
+506	0x3137	移动办公室	未定义	0x00	Enumerated
+507	0x3147	未分配(0x3147)	Unknown (0)	0x00	Raw
+508	0x3157	麦克风	未定义	0x00	Enumerated
+509	0x3160	地图配置1	禁用	0x00	Enumerated
+510	0x3161	地图配置1	禁用	0x00	Enumerated
+511	0x3162	地图配置1	禁用	0x00	Enumerated
+512	0x3163	地图配置1	禁用	0x00	Enumerated
+513	0x3164	地图配置1	禁用	0x00	Enumerated
+514	0x3165	地图配置1	禁用	0x00	Enumerated
+515	0x3166	地图配置1	禁用	0x00	Enumerated
+516	0x3167	地图配置1	禁用	0x00	Enumerated
+517	0x3170	地图配置2	禁用	0x00	Enumerated
+518	0x3171	地图配置2	禁用	0x00	Enumerated
+519	0x3172	地图配置2	禁用	0x00	Enumerated
+520	0x3173	地图配置2	禁用	0x00	Enumerated
+521	0x3174	地图配置2	禁用	0x00	Enumerated
+522	0x3175	地图配置2	禁用	0x00	Enumerated
+523	0x3176	地图配置n2	禁用	0x00	Enumerated
+524	0x3177	地图配置2	State 1	0x00	Enumerated
+525	0x3187	电话	未定义	0x00	Enumerated
+526	0x3227	中央控制台内的显示器	未定义	0x00	Enumerated
+527	0x3233	娱乐系统类型	未定义	0x00	Enumerated
+528	0x3237	娱乐系统类型	未定义	0x00	Enumerated
+529	0x3242	低端娱乐系统	未定义	0x40	Enumerated
+530	0x3245	低端娱乐系统	未定义	0x40	Enumerated
+531	0x3247	低端娱乐系统	未安装	0x40	Enumerated
+532	0x3251	组合仪表5 (Speedometer)	km/h	0x12	Enumerated
+533	0x3252	组合仪表5 (Speedometer)	不显示	0x12	Enumerated
+534	0x3253	组合仪表5 (Speedometer)	由SUMB控制	0x12	Enumerated
+535	0x3257	组合仪表5 (Speedometer)	scale 1	0x12	Enumerated
+536	0x3261	组合仪表6 (Speedometer)	displayed if trip computer different to speedometer main scale	0x9E	Enumerated
+537	0x3263	组合仪表6 (Speedometer)	与行车电脑相同	0x9E	Enumerated
+538	0x3264	行车电脑	metric	0x9E	Enumerated
+539	0x3266	里程表	与行车电脑一样	0x9E	Enumerated
+540	0x3267	里程表	显示	0x9E	Enumerated
+541	0x3271	组合仪表7 (转速表)	scale 1	0x00	Enumerated
+542	0x3272	组合仪表7 (转速表)	禁用	0x00	Enumerated
+543	0x3277	组合仪表7 (转速表)	不显示	0x00	Enumerated
+544	0x3283	转速表	032 rpm	0x74	Enumerated
+545	0x3287	转速表	1000 rpm	0x74	Enumerated
+546	0x3321	组合仪表8 - Fuel Gauge	variant 1	0x74	Enumerated
+547	0x3322	组合仪表8 - Fuel Gauge	启用	0x74	Enumerated
+548	0x3323	组合仪表8 - 燃油表	单泵	0x74	Enumerated
+549	0x3324	组合仪表8 - 燃油表	启用	0x74	Enumerated
+550	0x3325	制动警告	红色刹车闪烁警告	0x74	Enumerated
+551	0x3327	制动警告	ISO	0x74	Enumerated
+552	0x3337	网络接口	未定义	0x00	Enumerated
+553	0x3343	驻车辅助显示	无	0xE1	Enumerated
+554	0x3344	可视化安全带提示器	禁用	0xE1	Enumerated
+555	0x3345	可视化安全带提示器	启用	0xE1	Enumerated
+556	0x3346	可视化安全带提示器	启用	0xE1	Enumerated
+557	0x3347	可视化安全带提示器	启用	0xE1	Enumerated
+558	0x3354	前摄像头	2个摄像头	0x03	Enumerated
+559	0x3357	未分配 (0x3357)	Unknown (0)	0x03	Raw
+560	0x3364	侧摄像头	两侧摄像头	0x04	Enumerated
+561	0x3367	未分配 (0x3367)	Unknown (0)	0x04	Raw
+562	0x3373	环境照明01	区域01	0x11	Enumerated
+563	0x3377	环境照明01	选项01	0x11	Enumerated
+564	0x3380	IBOC系统	未安装	0x02	Enumerated
+565	0x3382	倒档选择策略	世界其他国家地区	0x02	Enumerated
+566	0x3383	未分配(0x3383)	Unallocated - 105/3 - Condition 1	0x02	Enumerated
+567	0x3387	IBOC系统	未定义	0x02	Enumerated
+568	0x3427	RDAR (遥控数字音频接收器)	未定义	0x00	Enumerated
+569	0x3437	时钟显示	12小时制	0x01	Enumerated
+570	0x3441	单位	公里	0x35	Enumerated
+571	0x3443	单位	摄氏度	0x35	Enumerated
+572	0x3447	单位	英里/加仑 (US)	0x35	Enumerated
+573	0x3457	TPMS 1	0	0x00	Decimal
+574	0x3467	TPMS 2	0	0x00	Decimal
+575	0x3477	TPMS 3	0	0x00	Decimal
+576	0x3487	TPMS 4	0	0x00	Decimal
+577	0x3527	TPMS 5	0	0x00	Decimal
+578	0x3537	TPMS 6	0	0x00	Decimal
+579	0x3547	TPMS 7	0	0x00	Decimal
+580	0x3557	TPMS 8	0	0x00	Decimal
+581	0x3567	TPMS 9	0	0x00	Decimal
+582	0x3577	TPMS 10	25	0x19	Decimal
+583	0x3587	TPMS 11	0	0x00	Decimal
+584	0x3627	TPMS 12	0	0x00	Decimal
+585	0x3637	TPMS 13	0	0x00	Decimal
+586	0x3647	TPMS 14	0	0x00	Decimal
+587	0x3657	TPMS 15	0	0x00	Decimal
+588	0x3667	TPMS 16	0	0x00	Decimal
+589	0x3677	TPMS 17	25	0x19	Decimal
+590	0x3687	TPMS 18	0	0x00	Decimal
+591	0x3727	TPMS ECU 1	0	0x00	Decimal
+592	0x3737	TPMS ECU 2	0	0x00	Decimal
+593	0x3747	TPMS ECU 3	0	0x00	Decimal
+594	0x3757	TPMS ECU 4	0	0x00	Decimal
+595	0x3767	TPMS ECU 5	0	0x00	Decimal
+596	0x3777	TPMS ECU 6	0	0x00	Decimal
+597	0x3783	自适应速度控制ECU	美国	0x92	Enumerated
+598	0x3786	自适应速度控制ECU	标准堵塞级别-40dB	0x92	Enumerated
+599	0x3787	自适应速度控制ECU	启用	0x92	Enumerated
+600	0x3827	Sirius蜂窝电话	
